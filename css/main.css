@@ -306,6 +306,99 @@ nav a {
 .notProd .not {
   background: url("../img/Component_3.svg") center no-repeat; }
 
+.textProd table {
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 15px;
+  color: #5C5C5C;
+  /*margin:40px 60px;*/ }
+
+table .producer {
+  color: #F4A876; }
+
+table tr td {
+  margin: 20px 10px; }
+
+.textProd .blockPay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.blockPay .size,
+.blockPay .payLink {
+  margin: 10px; }
+
+.blockPay .size {
+  width: 130px; }
+
+.blockPay .payLink {
+  width: 160px; }
+
+.blockPay .size {
+  font: normal 600 2.8rem 'AvenirNextCyr';
+  line-height: 31px;
+  color: #5C5C5C; }
+
+.blockPay .payLink,
+.blockPay1 .payLink1 {
+  font: normal 1.6rem 'AvenirNextCyr';
+  letter-spacing: 0.15em;
+  color: #F4A876;
+  position: relative;
+  padding: 10px 35px 10px 63px;
+  border: .1rem solid #F4A876; }
+
+.payLink .payIcon,
+.payLink1 .payIcon1 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 18px;
+  bottom: 7px;
+  background: url("../img/shopping-cart_orange.svg") center no-repeat; }
+
+/*--------------- popularProduct -------------*/
+.textProd1 .blockPay1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.blockPay1 .payLink1 {
+  padding: 13px 13px 13px 53px; }
+
+.payLink1 .payIcon1 {
+  width: 30px;
+  height: 30px;
+  left: 13px;
+  bottom: 10px; }
+
+.blockPay1 .size1 {
+  font: normal 600 2.4rem 'AvenirNextCyr';
+  line-height: 26px;
+  color: #5C5C5C; }
+
+.blockPay1 .size1,
+.blockPay1 .payLink1 {
+  margin: 10px; }
+
+.blockPay1 .size1 {
+  width: 130px; }
+
+.blockPay1 .payLink1 {
+  width: 150px; }
+
+/*--------------- //popularProduct -------------*/
 /*--------------- //newProduct -------------*/
 /*--------------------------- foooter --------------------------*/
 /*-------------------------- //foooter -------------------------*/
