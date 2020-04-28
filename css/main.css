@@ -210,7 +210,6 @@ nav a {
 .wrapper .screenSlider {
   position: relative;
   width: 100vw;
-  height: 100vh;
   margin-bottom: 40px; }
 
 .screenSlider .blockText {
@@ -248,7 +247,9 @@ nav a {
   font: normal 1.6rem 'AvenirNextCyr';
   text-align: center;
   color: #ffffff;
-  background: #F4A876; }
+  background: #F4A876;
+  position: absolute;
+  bottom: 15px; }
 
 .screenSlider .slider {
   height: 100%; }
@@ -256,7 +257,8 @@ nav a {
 /*--------------- //screenSlider ----------------*/
 /*--------------- newProduct -------------*/
 .wrapper .newProduct {
-  border-top: .1rem solid #F4A876; }
+  border-top: .1rem solid #F4A876;
+  margin-bottom: 70px; }
 
 .flex1 h2 {
   position: relative;
@@ -547,7 +549,8 @@ nav a:hover {
     float: right; }
   .slick-slide img {
     display: block;
-    height: 100vh; }
+    /*height: 100vh;*/
+    height: 100%; }
   .slick-slide.slick-loading img {
     display: none; }
   .slick-slide.dragging img {
@@ -556,7 +559,8 @@ nav a:hover {
     display: none; }
   @media screen and (min-width: 568px) {
     .slick-slide img.img2 {
-      display: block; }
+      display: block;
+      height: 300px; }
     .slick-slide img.img1 {
       display: none; } }
   .slick-initialized .slick-slide {
