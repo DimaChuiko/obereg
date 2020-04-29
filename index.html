@@ -164,7 +164,7 @@
           <table>
             <tr>
               <td>Производитель:</td>
-              <td>КрестИнвест</td>
+              <td><a href="" class="producer">КрестИнвест</a></td>
             </tr>
             <tr>
               <td>Материал:</td>
@@ -197,7 +197,7 @@
           <table>
             <tr>
               <td>Производитель:</td>
-              <td>КрестИнвест</td>
+              <td><a href="" class="producer">КрестИнвест</a></td>
             </tr>
             <tr>
               <td>Материал:</td>
@@ -263,7 +263,7 @@
           <table>
             <tr>
               <td>Производитель:</td>
-              <td>КрестИнвест</td>
+              <td><a href="" class="producer">КрестИнвест</a></td>
             </tr>
             <tr>
               <td>Материал:</td>
@@ -296,7 +296,7 @@
           <table>
             <tr>
               <td>Производитель:</td>
-              <td>КрестИнвест</td>
+              <td><a href="" class="producer">КрестИнвест</a></td>
             </tr>
             <tr>
               <td>Материал:</td>
@@ -362,7 +362,7 @@
           <table>
             <tr>
               <td>Производитель:</td>
-              <td>КрестИнвест</td>
+              <td><a href="" class="producer">КрестИнвест</a></td>
             </tr>
             <tr>
               <td>Материал:</td>
@@ -385,14 +385,16 @@
       </article>
     </div>
     </div>
+    <div class="meter"><span id="cp">1 </span> \ 8</div>
   </div>
 </section>
-<!--                 //new Product -->
-                            <!-- popular Product -->
+<!--                   //new Product                       -->
+<!--                   popular Product                     -->
 <section class="popularProduct">
   <div class="gridContainer flex2">
     <h2>ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
     <div class="slider2">
+      <div>
       <article class="article1">
         <div class="imgProd1">
           <img src="img/crest.png" alt="image">
@@ -424,6 +426,8 @@
           </table>
         </div>
       </article>
+    </div>
+    <div>
       <article class="article1">
         <div class="imgProd1">
           <img src="img/crest.png" alt="image">
@@ -455,6 +459,8 @@
           </table>
         </div>
       </article>
+    </div>
+    <div>
       <article class="article1">
         <div class="imgProd1">
           <img src="img/crest.png" alt="image">
@@ -486,6 +492,8 @@
           </table>
         </div>
       </article>
+    </div>
+    <div>
       <article class="article1">
         <div class="imgProd1">
           <img src="img/crest.png" alt="image">
@@ -517,6 +525,7 @@
           </table>
         </div>
       </article>
+    </div>
     </div>
   </div>
 </section>
@@ -652,7 +661,13 @@
     <script src="js/slick.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
-      $('.slider, .slider1').slick({
+      $('.slider').slick({
+        arrows: false
+      });
+      $('.slider1').slick({
+      });
+      $(".slider1").on('afterChange', function(event, slick, currentSlide){
+        $("#cp").text(currentSlide + 1);
       });
     });
     </script>
