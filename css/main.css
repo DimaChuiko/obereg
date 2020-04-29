@@ -562,7 +562,9 @@ nav a {
 /*--------------- newProduct -------------*/
 .wrapper .newProduct {
   border-top: .1rem solid #F4A876;
-  margin-bottom: 70px; }
+  padding-bottom: 70px;
+  -webkit-box-shadow: 0px 24px 75px rgba(244, 168, 118, 0.2);
+  box-shadow: 0px 24px 75px rgba(244, 168, 118, 0.2); }
 
 .flex1 h2 {
   position: relative;
@@ -695,6 +697,47 @@ table tr td:last-child {
 
 /*----------------------- //newProduct -----------------------*/
 /*--------------- popularProduct -------------*/
+.wrapper .popularProduct {
+  margin-top: 105px;
+  border-top: .1rem solid #F4A876; }
+
+.flex2 h2 {
+  position: relative;
+  width: 270px;
+  top: -44px;
+  margin: 0 auto;
+  background: #fff; }
+
+.slider2 .article1 {
+  margin: 0 5px;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0; }
+
+.textProd1 h4 {
+  padding: 30px 10px;
+  text-align: left; }
+
+.textProd1 table {
+  display: none; }
+
+.textProd1 .yesProd,
+.textProd1 .maybeProd,
+.textProd1 .notProd {
+  position: relative;
+  padding: 5px 30px;
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 15px;
+  bottom: 14.5px;
+  background: #ffffff;
+  color: #52BD10; }
+
+.textProd1 .maybeProd {
+  color: #E7A806; }
+
+.textProd1 .notProd {
+  color: #ED5959; }
+
 .textProd1 .blockPay1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -731,7 +774,6 @@ table tr td:last-child {
   width: 150px; }
 
 /*--------------- //popularProduct -------------*/
-/*--------------- //newProduct -------------*/
 /*--------------------------- foooter --------------------------*/
 /*-------------------------- //foooter -------------------------*/
 @media screen and (min-width: 375px) {
