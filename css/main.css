@@ -262,13 +262,14 @@ $slick-dot-size: 6px !default;*/
   text-align: center;
   padding: 0;
   margin: 0;
-  width: 100%; }
+  width: 161px;
+  left: calc(50% - 80.5px); }
   .slick-dots li {
     position: relative;
     display: inline-block;
     height: 20px;
     width: 20px;
-    margin: 0 5px;
+    margin: 0 10px;
     padding: 0;
     cursor: pointer; }
     .slick-dots li button {
@@ -286,7 +287,7 @@ $slick-dot-size: 6px !default;*/
       .slick-dots li button:hover, .slick-dots li button:focus {
         outline: none; }
         .slick-dots li button:hover:before, .slick-dots li button:focus:before {
-          opacity: 1; }
+          /*opacity: $slick-opacity-on-hover;*/ }
       .slick-dots li button:before {
         position: absolute;
         top: 0;
@@ -300,10 +301,6 @@ $slick-dot-size: 6px !default;*/
         -moz-osx-font-smoothing: grayscale; }
     .slick-dots li.slick-active button:before {
       background: #F4A876; }
-
-.slider .slick-dots,
-.slider1 .slick-dots {
-  display: none; }
 
 /*-----------fonts---------*/
 @font-face {
@@ -350,7 +347,8 @@ header, main, footer {
 h1 {
   font: normal 3.8rem 'AvenirNextCyr';
   color: #F4A876;
-  line-height: 150.5%; }
+  line-height: 57px;
+  text-transform: uppercase; }
 
 h2 {
   font: normal 3.2rem 'AvenirNextCyr';
@@ -779,11 +777,87 @@ table tr td:last-child {
 /*--------------- //popularProduct -------------*/
 /*--------------- about -------------*/
 .about .backImg {
-  background: linear-gradient(242.85deg, #FFFFFF 18.39%, rgba(255, 255, 255, 0) 57.47%), url("../img/image_back_about.png");
-  background-size: cover;
-  height: 220px; }
+  background: linear-gradient(242.85deg, #FFFFFF 18.39%, rgba(255, 255, 255, 0) 57.47%);
+  /*background-size: cover;*/
+  width: 100%; }
+
+.flex3 .blockText2 {
+  padding: 0 10px; }
+
+.blockText2 h1 {
+  text-align: left;
+  margin: 27px auto; }
+
+.blockText2 p {
+  text-align: left;
+  font: normal 1.6rem 'AvenirNextCyr';
+  line-height: 24px;
+  color: #000000; }
+
+.blockText2 .link {
+  width: 250px;
+  position: relative;
+  left: calc(50% - 125px);
+  font: normal 600 1.6rem 'AvenirNextCyr';
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  margin: 56px 0;
+  padding: 15px;
+  color: #F4A876;
+  border: .1rem solid #F4A876; }
 
 /*--------------- //about -------------*/
+/*---------------- testimonials ---------------*/
+.wrapper .testimonials {
+  margin-top: 39px;
+  margin-bottom: 60px;
+  border-top: .1rem solid #F4A876; }
+
+.flex4 h2 {
+  position: relative;
+  top: -44px;
+  width: 270px;
+  margin: 0 auto;
+  background: #ffffff; }
+
+.slider3 .user {
+  position: relative;
+  text-align: center;
+  margin: 50px 10px 30px 10px;
+  padding: 15px 5px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5; }
+
+.user .imgProd2 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  top: -45px;
+  left: calc(50% - 45px);
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.user h4 {
+  margin: 45px 0 15px 0;
+  line-height: 22px;
+  color: #F4A876; }
+
+.user p {
+  margin-bottom: 10px; }
+
+.user .userName {
+  font: normal 1.8rem 'AvenirNextCyr';
+  line-height: 25px;
+  text-align: center;
+  color: #C4C4C4; }
+
+.slider3 .slick-dots {
+  bottom: -20px; }
+
+/*---------------- //testimonials ---------------*/
 /*--------------------------- foooter --------------------------*/
 /*-------------------------- //foooter -------------------------*/
 @media screen and (min-width: 375px) {

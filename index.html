@@ -533,7 +533,7 @@
 <!-- about -->
 <section class="about">
   <div class="backImg">
-    <img src="" alt="">
+    <img src="img/image_back_about.png" alt="image">
     <img src="" alt="">
   </div>
   <div class="gridContainer flex3">
@@ -550,22 +550,46 @@
   <div class="gridContainer flex4">
     <h2>ДОВОЛЬНЫЕ КЛИЕНТЫ</h2>
     <div class="slider3">
+      <div>
       <div class="user">
         <div class="imgProd2">
           <img src="img/Rectangle_22.png" alt="image">
         </div>
         <h4>Золотой браслет Монетки с фианитами</h4>
         <p>Браслетик просто супер! Нежный, красивый именно такой я и хотела! Огромное спасибо за быструю доставку и хорошее обслуживание!</p>
-        <span>Анфиса</span>
+        <span class="userName">Анфиса</span>
       </div>
+    </div>
+    <div>
       <div class="user">
         <div class="imgProd2">
           <img src="img/Rectangle_22.png" alt="image">
         </div>
         <h4>Золотой браслет Монетки с фианитами</h4>
         <p>Браслетик просто супер! Нежный, красивый именно такой я и хотела! Огромное спасибо за быструю доставку и хорошее обслуживание!</p>
-        <span>Анфиса</span>
+        <span class="userName">Анфиса</span>
       </div>
+    </div>
+    <div>
+      <div class="user">
+        <div class="imgProd2">
+          <img src="img/Rectangle_22.png" alt="image">
+        </div>
+        <h4>Золотой браслет Монетки с фианитами</h4>
+        <p>Браслетик просто супер! Нежный, красивый именно такой я и хотела! Огромное спасибо за быструю доставку и хорошее обслуживание!</p>
+        <span class="userName">Анфиса</span>
+      </div>
+    </div>
+    <div>
+      <div class="user">
+        <div class="imgProd2">
+          <img src="img/Rectangle_22.png" alt="image">
+        </div>
+        <h4>Золотой браслет Монетки с фианитами</h4>
+        <p>Браслетик просто супер! Нежный, красивый именно такой я и хотела! Огромное спасибо за быструю доставку и хорошее обслуживание!</p>
+        <span class="userName">Анфиса</span>
+      </div>
+    </div>
     </div>
   </div>
 </section>
@@ -666,14 +690,19 @@
     <script type="text/javascript">
       $(document).ready(function(){
       $('.slider').slick({
-        arrows: false
+        arrows: false,
+        dots: false
       });
       $('.slider1').slick({
+        dots: false
       });
       $(".slider1").on('afterChange', function(event, slick, currentSlide){
         $("#cp").text(currentSlide + 1);
       });
       $('.slider2').slick({
+      });
+      $('.slider3').slick({
+        arrows: false
       });
     });
     </script>
