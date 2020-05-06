@@ -858,6 +858,21 @@ table tr td:last-child {
   bottom: -20px; }
 
 /*---------------- //testimonials ---------------*/
+/*----------------- lastPosts -----------------*/
+.wrapper .lastPosts {
+  margin-bottom: 60px; }
+
+.article3 h4 {
+  margin: 10px; }
+
+.article3 .link {
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #F4A876;
+  width: 100px; }
+
+/*----------------- //lastPosts -----------------*/
 /*--------------------------- foooter --------------------------*/
 /*-------------------------- //foooter -------------------------*/
 @media screen and (min-width: 375px) {
