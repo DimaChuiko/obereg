@@ -146,6 +146,9 @@ nav a:hover {
       height: 300px; }
     .slick-slide img.img1 {
       display: none; } }
+  @media screen and (min-width: 768px) {
+    .slick-slide img.img2 {
+      height: 50vh; } }
   .slick-initialized .slick-slide {
     display: block; }
   .slick-loading .slick-slide {
@@ -514,7 +517,7 @@ nav a {
 /*--------------- screenSlider ----------------*/
 .wrapper .screenSlider {
   position: relative;
-  width: 100vw;
+  /*width:100vw;*/
   margin-bottom: 40px; }
 
 .screenSlider .blockText {
@@ -555,9 +558,6 @@ nav a {
   background: #F4A876;
   position: absolute;
   bottom: 15px; }
-
-.screenSlider .slider {
-  height: 100%; }
 
 /*--------------- //screenSlider ----------------*/
 /*--------------- newProduct -------------*/
@@ -916,6 +916,15 @@ table tr td:last-child {
   margin: 0 auto;
   background: #ffffff; }
 
+.flex6 .linkInsta {
+  font: normal 1.6rem 'AvenirNextCyr';
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #C4C4C4;
+  position: relative;
+  top: -20px;
+  left: calc(50% - 68.5px); }
+
 .flex6 .fotoInst {
   overflow: hidden;
   overflow-x: scroll;
@@ -982,6 +991,7 @@ table tr td:last-child {
 .wrapper .footer {
   background-color: #5C5C5C;
   padding: 40px 0;
+  margin-top: 60px;
   position: relative; }
 
 .flex7 .blockLogoFoot {
@@ -1048,6 +1058,23 @@ table tr td:last-child {
 /*---------------------- @media 568px --------------------------*/
 /*---------------------- @media 667px --------------------------*/
 /*---------------------- @media 768 --------------------------*/
+@media screen and (min-width: 768px) {
+  .wrapper .screenSlider {
+    height: 50vh;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .slider1 article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .imgProd, .textProd {
+    width: 50%; }
+  .imgProd img {
+    height: auto; } }
+
 /*---------------------- @media 1024 --------------------------*/
 /*---------------------- @media 1280 --------------------------*/
 /*---------------------- @media 1360 --------------------------*/
