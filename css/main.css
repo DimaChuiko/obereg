@@ -562,10 +562,12 @@ nav a {
 /*--------------- //screenSlider ----------------*/
 /*--------------- newProduct -------------*/
 .wrapper .newProduct {
-  border-top: .1rem solid #F4A876;
   padding-bottom: 70px;
   -webkit-box-shadow: 0px 24px 75px rgba(244, 168, 118, 0.2);
   box-shadow: 0px 24px 75px rgba(244, 168, 118, 0.2); }
+
+.newProduct .flex1 {
+  border-top: .1rem solid #F4A876; }
 
 .flex1 h2 {
   position: relative;
@@ -700,7 +702,9 @@ table tr td:last-child {
 /*--------------- popularProduct -------------*/
 .wrapper .popularProduct {
   margin-top: 105px;
-  margin-bottom: 108px;
+  margin-bottom: 108px; }
+
+.popularProduct .flex2 {
   border-top: .1rem solid #F4A876; }
 
 .flex2 h2 {
@@ -722,6 +726,9 @@ table tr td:last-child {
 
 .textProd1 table {
   display: none; }
+
+.textProd1:hover table {
+  display: table; }
 
 .textProd1 .yesProd,
 .textProd1 .maybeProd,
@@ -812,7 +819,9 @@ table tr td:last-child {
 /*---------------- testimonials ---------------*/
 .wrapper .testimonials {
   margin-top: 39px;
-  margin-bottom: 90px;
+  margin-bottom: 90px; }
+
+.testimonials .flex4 {
   border-top: .1rem solid #F4A876; }
 
 .flex4 h2 {
@@ -861,9 +870,11 @@ table tr td:last-child {
 /*---------------- //testimonials ---------------*/
 /*----------------- lastPosts -----------------*/
 .wrapper .lastPosts {
-  border-top: .1rem solid #F4A876;
   margin-top: 45px;
   margin-bottom: 60px; }
+
+.lastPosts .flex5 {
+  border-top: .1rem solid #F4A876; }
 
 .flex5 h2 {
   position: relative;
@@ -906,8 +917,10 @@ table tr td:last-child {
 /*----------------- //lastPosts -----------------*/
 /*----------------- instagram ------------------*/
 .mainContent .instagram {
-  border-top: .1rem solid #F4A876;
   margin-top: 130px; }
+
+.instagram .flex6 {
+  border-top: .1rem solid #F4A876; }
 
 .flex6 h2 {
   width: 310px;
@@ -1063,17 +1076,28 @@ table tr td:last-child {
     height: 50vh;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
-  .slider1 article {
+  .slider1 .article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
-  .imgProd, .textProd {
+    align-items: center;
+    margin: 30px 0 60px 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .article .textProd {
+    -webkit-box-shadow: 0px 24px 75px rgba(244, 168, 118, 0.2);
+    box-shadow: 0px 24px 75px rgba(244, 168, 118, 0.2); }
+  .article .imgProd {
     width: 50%; }
-  .imgProd img {
-    height: auto; } }
+  .article .textProd {
+    width: 45%; }
+  .flex2 .slider2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
 
 /*---------------------- @media 1024 --------------------------*/
 /*---------------------- @media 1280 --------------------------*/
