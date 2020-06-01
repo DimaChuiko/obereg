@@ -675,13 +675,14 @@ table tr td:last-child {
   border: .1rem solid #F4A876; }
 
 .payLink .payIcon,
-.payLink1 .payIcon1 {
+.payLink1 .payIcon1,
+.payLink1 .basket {
   position: absolute;
   width: 25px;
   height: 25px;
   left: 18px;
   bottom: 7px;
-  background: url("../img/shopping-cart_orange.svg") center no-repeat; }
+  /*background: url('../img/shopping-cart_orange.svg') center no-repeat;*/ }
 
 .flex1 .meter {
   position: relative;
@@ -714,20 +715,68 @@ table tr td:last-child {
   margin: 0 auto;
   background: #fff; }
 
+.flex2 .slider2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
 .slider2 .article1 {
   margin: 0 5px;
   padding: 10px;
   background: #FFFFFF;
-  border: 1px solid #F0F0F0; }
+  border: 1px solid #F0F0F0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out; }
 
 .textProd1 h4 {
   padding: 30px 10px;
   text-align: left; }
 
+.article1 .imgProd1 {
+  position: relative; }
+
+.article1 .imgProd1::after {
+  position: absolute;
+  display: block;
+  content: '';
+  background: url("../img/ornament.png") center no-repeat;
+  width: 132px;
+  height: 9px;
+  left: calc(50% - 66px);
+  bottom: -18px; }
+
+.textProd1 table {
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 15px;
+  color: #5C5C5C;
+  width: 100%;
+  height: 140px;
+  padding: 10px; }
+
+.textProd1 table tr {
+  width: 100%;
+  margin: 20px; }
+
+.textProd1 table .producer {
+  color: #F4A876; }
+
+.textProd1 table tr td {
+  width: 50%;
+  margin: 20px 10px; }
+
+.textProd1 table tr td:last-child {
+  text-align: right; }
+
 .textProd1 table {
   display: none; }
 
-.textProd1:hover table {
+.article1:hover table {
   display: table; }
 
 .textProd1 .yesProd,
@@ -758,21 +807,42 @@ table tr td:last-child {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-.blockPay1 .payLink1 {
-  padding: 13px 13px 13px 53px; }
+.article1:hover {
+  -webkit-box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2);
+  box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2); }
 
-.payLink1 .payIcon1 {
+.article1:hover .payLink1 {
+  color: #fff;
+  background-color: #F4A876; }
+
+.blockPay1 .payLink1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 13px 13px 13px 53px;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out; }
+
+.payLink1 .payIcon1,
+.payLink1 .basket {
   width: 30px;
-  height: 33px;
+  height: 30px;
   left: 13px;
   bottom: 10px; }
 
-.blockPay1 .size1 {
+.blockSize .oldSize1 {
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 15px;
+  color: #C4C4C4;
+  position: relative;
+  display: inline-block; }
+
+.blockSize .size1 {
   font: normal 600 2.4rem 'AvenirNextCyr';
   line-height: 26px;
   color: #5C5C5C; }
 
-.blockPay1 .size1,
+.blockPay1 .blockSize,
 .blockPay1 .payLink1 {
   margin: 10px; }
 
@@ -781,6 +851,17 @@ table tr td:last-child {
 
 .blockPay1 .payLink1 {
   width: 150px; }
+
+.blockSize p {
+  text-align: left; }
+
+.blockSize .oldSize1::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  top: 50%;
+  background: #ED5959; }
 
 /*--------------- //popularProduct -------------*/
 /*--------------- about -------------*/
