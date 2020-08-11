@@ -654,9 +654,9 @@ table tr td:last-child {
 .blockPay .payLink {
   margin: 10px; }
 
-.blockPay .size {
-  width: 130px; }
-
+/*.blockPay .size {
+  width:130px;
+}*/
 .blockPay .size {
   font: normal 600 2.8rem 'AvenirNextCyr';
   line-height: 31px;
@@ -736,6 +736,19 @@ table tr td:last-child {
   -webkit-transition: all 1s ease-out;
   transition: all 1s ease-out; }
 
+.article1 .labelSale,
+.article1 .labelNew {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  z-index: 5; }
+
+.article1 .labelSale {
+  background: url("../img/labelSale_icon.png") center no-repeat; }
+
+.article1 .labelNew {
+  background: url("../img/labelNew_icon.png") center no-repeat; }
+
 .flex2 .slider2 {
   height: 400px;
   z-index: 3; }
@@ -743,17 +756,23 @@ table tr td:last-child {
 .slider2 .slick-list {
   z-index: 4; }
 
+/*           slider5          */
+.article1 .slider5 {
+  z-index: 1; }
+
 .slider5 .slick-list {
   height: inherit; }
 
+.slider5 .imgProd1 {
+  width: 330px;
+  height: 200px; }
+
 .textProd1 h4 {
+  position: relative;
   padding: 30px 10px;
   text-align: left; }
 
-.article1 .imgProd1 {
-  position: relative; }
-
-.article1 .imgProd1::after {
+.textProd1 h4::before {
   position: absolute;
   display: block;
   content: '';
@@ -761,8 +780,9 @@ table tr td:last-child {
   width: 132px;
   height: 9px;
   left: calc(50% - 66px);
-  bottom: 0; }
+  top: 5px; }
 
+/*           скрывающаяся таблица для популярных товаров            */
 .textProd1 table {
   font: normal 1.4rem 'AvenirNextCyr';
   line-height: 15px;
@@ -790,7 +810,6 @@ table tr td:last-child {
 
 .slider2 .article1:hover {
   z-index: 6;
-  /*transform-origin: 0 20px;*/
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
   -webkit-box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2);
@@ -896,7 +915,7 @@ table tr td:last-child {
   bottom: calc(50% - 16px);
   left: 230px; }
 
-/*--------------- //popularProduct -------------*/
+/*----------------------- //popularProduct ----------------------*/
 /*--------------- about -------------*/
 /*.about .backImg {
   background: linear-gradient(242.85deg, #FFFFFF 18.39%, rgba(255, 255, 255, 0) 57.47%), url('../img/image_back_about.png');
@@ -1222,7 +1241,9 @@ table tr td:last-child {
   .article .textProd {
     width: 51%; }
   .textProd h3 {
-    padding-top: 20px; } }
+    padding-top: 20px; }
+  .flex4 h2 {
+    width: 441px; } }
 
 /*---------------------- @media 1024 --------------------------*/
 @media screen and (min-width: 1024px) {
