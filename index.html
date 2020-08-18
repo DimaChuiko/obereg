@@ -983,7 +983,7 @@
   </div>
 </section>
 <!--                         //popular Product                        -->
-<!-- about -->
+<!--                         about                             -->
 <section class="about">
   <div class="gridContainer flex3">
     <div class="blockText2">
@@ -1088,8 +1088,7 @@
         </div>
         <h4>В ювелирном гардеробе женщины не бывает слишком много серег</h4>
         <div class="blockLink">
-        <a href="" class="link">подробнее</a>
-        <span class="arrowOrange"></span>
+        <a href="" class="link">подробнее<span class="arrowOrange"></span></a>
       </div>
       </article>
     </div>
@@ -1178,10 +1177,17 @@
         infinite: true,
         speed: 300,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1280,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 850,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2
@@ -1205,11 +1211,75 @@
 
       });
       $('.slider3').slick({
-        arrows: false
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+        {
+          breakpoint:1280,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint:768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        ]
       });
       $('.slider4').slick({
         arrows: false,
-        autoplay: false
+        autoplay: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+        {
+          breakpoint:1280,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint:768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        ]
       });
       $('.slider5').slick({
         arrows: true,

@@ -709,7 +709,7 @@ table tr td:last-child {
 .wrapper .popularProduct {
   margin-top: 105px;
   margin-bottom: 108px;
-  height: 450px;
+  height: 500px;
   position: relative;
   z-index: 1; }
 
@@ -923,26 +923,28 @@ table tr td:last-child {
   width:100%;
 }*/
 .wrapper .about {
-  background: linear-gradient(242.85deg, #FFFFFF 18.39%, rgba(255, 255, 255, 0) 57.47%), url("../img/image_back_about.png") top no-repeat;
+  background: linear-gradient(242.85deg, #FFFFFF 18.39%, rgba(255, 255, 255, 0) 57.47%), url("../img/back_popular.jpg") top no-repeat;
   background-size: 100% 217px; }
 
 .flex3 .blockText2 {
+  text-align: right;
   padding: 220px 10px 0 10px; }
 
 .blockText2 h1 {
-  text-align: left;
-  margin: 27px auto; }
+  width: 70%;
+  margin: 15px auto; }
 
 .blockText2 p {
-  text-align: left;
+  width: 70%;
+  margin: 15px auto;
   font: normal 1.6rem 'AvenirNextCyr';
   line-height: 24px;
   color: #000000; }
 
 .blockText2 .link {
-  width: 250px;
   position: relative;
-  left: calc(50% - 125px);
+  width: 250px;
+  left: -20px;
   font: normal 600 1.6rem 'AvenirNextCyr';
   line-height: 18px;
   text-align: center;
@@ -1208,9 +1210,12 @@ table tr td:last-child {
 /*---------------------- @media 568px --------------------------*/
 @media screen and (min-width: 568px) {
   .wrapper .about {
-    background-size: 100%; }
+    background-size: cover; }
   .flex3 .blockText2 {
-    padding: 200px 10px 0 10px; } }
+    padding: 200px 10px 0 10px; }
+  .slider4 .article3 {
+    width: 350px;
+    margin: 5px auto; } }
 
 /*---------------------- @media 667px --------------------------*/
 /*---------------------- @media 768 --------------------------*/
@@ -1243,7 +1248,15 @@ table tr td:last-child {
   .textProd h3 {
     padding-top: 20px; }
   .flex4 h2 {
-    width: 441px; } }
+    width: 441px;
+    top: -22px; }
+  .flex3 .blockText2 {
+    padding: 15px 0; }
+  .blockText2 .link {
+    margin: 15px 0; }
+  .fotoInst .foto {
+    width: auto;
+    height: auto; } }
 
 /*---------------------- @media 1024 --------------------------*/
 @media screen and (min-width: 1024px) {
@@ -1252,7 +1265,9 @@ table tr td:last-child {
   .article .imgProd {
     width: 40%; }
   .article .textProd {
-    width: 45%; } }
+    width: 45%; }
+  .slider4 .article3 {
+    width: 400px; } }
 
 /*---------------------- @media 1280 --------------------------*/
 /*---------------------- @media 1360 --------------------------*/
