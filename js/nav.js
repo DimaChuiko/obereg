@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 //jQuery(document).ready(function($) {
-$('.menu-phone').hide();
+//$('.menu-phone').hide();
 $('.menu-open-btn').on('click', () => {
  if ($('#menu-phone').css('display') === 'none') {
   $('.menu-btn-line').addClass('menu-btn-line-active');

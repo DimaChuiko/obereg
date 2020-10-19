@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .menu-phone {
-  /*display: flex;*/
+  display: none;
   width: 100%;
   height: auto;
   -webkit-box-pack: center;
@@ -26,9 +26,7 @@ nav a:hover {
 .menu-open-btn {
   margin: 20px 10px;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  /*display: flex;*/
   width: 30px;
   height: 30px;
   font-size: 24px;
@@ -74,6 +72,10 @@ nav a:hover {
 .menu-btn-line-active::after {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
+
+@media screen and (min-width: 1360px) {
+  .menu-phone {
+    position: inherit; } }
 
 /* Slider */
 .slick-slider {
@@ -341,7 +343,8 @@ html {
 
 header, main, footer {
   width: 100%;
-  height: auto; }
+  height: auto;
+  position: relative; }
 
 .gridContainer {
   min-width: 320px;
@@ -1151,7 +1154,10 @@ table tr td:last-child {
   width: 200px;
   height: 50px; }
 
-.flex7 .blockLogoFoot::after {
+.blockLogoFoot .logoFoot {
+  position: relative; }
+
+.blockLogoFoot .logoFoot::after {
   content: '@ OBEREG 2014-2020';
   font: normal 1rem 'AvenirNextCyr';
   line-height: 14px;
@@ -1256,7 +1262,12 @@ table tr td:last-child {
     margin: 15px 0; }
   .fotoInst .foto {
     width: auto;
-    height: auto; } }
+    height: auto; }
+  .navMenuDown ul li {
+    width: auto;
+    margin: 0 auto; }
+  .flex7 .navDown {
+    margin: 50px auto; } }
 
 /*---------------------- @media 1024 --------------------------*/
 @media screen and (min-width: 1024px) {
@@ -1271,4 +1282,49 @@ table tr td:last-child {
 
 /*---------------------- @media 1280 --------------------------*/
 /*---------------------- @media 1360 --------------------------*/
+@media screen and (min-width: 1360px) {
+  .blockLogoFoot .logoFoot::after {
+    top: 50px; }
+  .footer .flex7 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .flex7 .navDown {
+    width: 70%;
+    margin: 0 auto; }
+  .flex7 .sociatyLink {
+    margin: 0 auto; }
+  .menu-phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .menu-open-btn {
+    display: none; }
+  .menu-phone .navCategory {
+    width: 100%;
+    position: absolute;
+    height: 55px;
+    top: 145px; }
+  .navCategory .listCategory {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .header {
+    height: 200px; }
+  .menu-phone .navMenuUp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    background: none;
+    top: 0;
+    left: 0; }
+  ul.listMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+
 /*@import "forms";*/
