@@ -404,7 +404,7 @@ button {
   justify-content: space-between; }
 
 .navMob .blockLogo {
-  margin: 20px 10px; }
+  margin: 20px; }
 
 .navMob .blockBasket {
   margin: 20px 10px; }
@@ -438,8 +438,7 @@ nav a {
   z-index: 1; }
 
 .one .blockMonLang {
-  width: 50%;
-  margin: 20px 0;
+  margin: 15px;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -451,6 +450,9 @@ nav a {
   align-items: baseline;
   top: 5px;
   right: 0; }
+
+.blockMonLang form {
+  margin-right: 10px; }
 
 .navMenuUp a {
   font: normal 1.4rem 'AvenirNextCyr';
@@ -1297,34 +1299,78 @@ table tr td:last-child {
   .menu-phone {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap; }
   .menu-open-btn {
     display: none; }
   .menu-phone .navCategory {
     width: 100%;
     position: absolute;
-    height: 55px;
-    top: 145px; }
+    bottom: 0;
+    height: 55px; }
   .navCategory .listCategory {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    height: 100%; }
+  .listCategory .itemCategory {
+    margin: 0 15px;
+    border-right: .1rem solid #FFC59E;
+    margin-left: 0;
+    padding: 0 15px 0 0; }
+  .listCategory .itemCategory:first-child {
+    margin-left: 0; }
   .header {
     height: 200px; }
   .menu-phone .navMenuUp {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    background: none;
-    top: 0;
-    left: 0; }
+    top: -100px;
+    position: relative;
+    left: 0;
+    width: 100%; }
   ul.listMenu {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex; }
+  .menu-phone .one {
+    height: auto; }
+  .navMob .blockLogo {
+    position: relative;
+    top: 42px; }
+  .one .blockSearch {
+    top: 50px;
+    left: calc(50% - 455px);
+    width: 350px; }
+  .blockSearch .formSearch {
+    width: auto;
+    border: 1px solid #F4A876; }
+  .formSearch input[type="search"]:hover {
+    width: 100%; }
+  .formSearch input[type="search"] {
+    width: 100%;
+    border-right: .2rem solid #E5E5E5;
+    -webkit-transition-property: none;
+    transition-property: none;
+    -webkit-transition-duration: none;
+    transition-duration: none;
+    -webkit-transition-timing-function: none;
+    transition-timing-function: none; }
+  .menu-phone .blockCallback {
+    position: absolute;
+    background: none;
+    top: 50px;
+    left: calc(50% + 0px); }
+  .wrapper .screenSlider {
+    height: 700px; }
+  .slick-slide img.img2 {
+    height: 700px; }
+  .one .blockMonLang {
+    z-index: 1;
+    right: calc(50% - 700px); } }
 
 /*@import "forms";*/
