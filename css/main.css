@@ -407,7 +407,7 @@ button {
   margin: 20px; }
 
 .navMob .blockBasket {
-  margin: 20px 10px; }
+  margin: 20px; }
 
 nav a {
   font: normal 1.6rem 'AvenirNextCyr';
@@ -452,7 +452,7 @@ nav a {
   right: 0; }
 
 .blockMonLang form {
-  margin-right: 10px; }
+  margin-right: 5px; }
 
 .navMenuUp a {
   font: normal 1.4rem 'AvenirNextCyr';
@@ -1320,10 +1320,10 @@ table tr td:last-child {
     justify-content: center;
     height: 100%; }
   .listCategory .itemCategory {
-    margin: 0 15px;
+    margin: 0 10px;
     border-right: .1rem solid #FFC59E;
     margin-left: 0;
-    padding: 0 15px 0 0; }
+    padding: 0 10px 0 0; }
   .listCategory .itemCategory:first-child {
     margin-left: 0; }
   .header {
@@ -1371,6 +1371,39 @@ table tr td:last-child {
     height: 700px; }
   .one .blockMonLang {
     z-index: 1;
-    right: calc(50% - 700px); } }
+    right: calc(50% - 700px); }
+  .navMob .blockBasket {
+    position: absolute;
+    z-index: 2;
+    right: calc(50% - 700px);
+    width: 100px;
+    top: 45px; }
+  .blockBasket .basket {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative; }
+  .basket img {
+    width: auto; }
+  .basket .basketMeter {
+    font: normal 1.4rem 'AvenirNextCyr';
+    line-height: 19px;
+    text-align: center;
+    color: #F4A876;
+    position: absolute;
+    top: -14px;
+    left: 14px; }
+  .screenSlider .blockText {
+    width: 536px;
+    left: 150px;
+    top: 100px; }
+  .blockText .textBold {
+    font-size: 4.8rem; } }
 
 /*@import "forms";*/
