@@ -73,10 +73,6 @@ nav a:hover {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-@media screen and (min-width: 1360px) {
-  .menu-phone {
-    position: inherit; } }
-
 /* Slider */
 .slick-slider {
   position: relative;
@@ -307,6 +303,37 @@ $slick-dot-size: 6px !default;*/
         -moz-osx-font-smoothing: grayscale; }
     .slick-dots li.slick-active button:before {
       background: #F4A876; }
+
+/*------------- aboutUs --------------*/
+.aboutUs .flex8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.flex8 .blockImg1 {
+  width: 440px;
+  height: 510px; }
+
+.textWhoWe h2,
+.textGuarantess h2 {
+  font: normal 4.8rem 'AvenirNextCyr';
+  line-height: 66px;
+  letter-spacing: 0.05em;
+  color: #F4A876; }
+
+.textWhoWe p.history {
+  font: normal 1.8rem 'AvenirNextCyr';
+  line-height: 25px;
+  color: #5C5C5C; }
+
+.textGuarantess p.story {
+  font: normal 1.6rem 'AvenirNextCyr';
+  line-height: 22px;
+  color: #5C5C5C; }
+
+.flex9 .blockImg2 {
+  width: 804px;
+  height: 520px; }
 
 /*-----------fonts---------*/
 @font-face {
@@ -1297,6 +1324,7 @@ table tr td:last-child {
   .flex7 .sociatyLink {
     margin: 0 auto; }
   .menu-phone {
+    position: inherit;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
