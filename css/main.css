@@ -308,11 +308,11 @@ $slick-dot-size: 6px !default;*/
 .aboutUs .flex8 {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
-
-.flex8 .blockImg1 {
-  width: 440px;
-  height: 510px; }
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
 
 .textWhoWe h2,
 .textGuarantess h2 {
@@ -324,16 +324,34 @@ $slick-dot-size: 6px !default;*/
 .textWhoWe p.history {
   font: normal 1.8rem 'AvenirNextCyr';
   line-height: 25px;
-  color: #5C5C5C; }
+  color: #5C5C5C;
+  margin-bottom: 10px; }
 
 .textGuarantess p.story {
   font: normal 1.6rem 'AvenirNextCyr';
   line-height: 22px;
-  color: #5C5C5C; }
+  color: #5C5C5C;
+  margin-bottom: 10px; }
 
-.flex9 .blockImg2 {
-  width: 804px;
-  height: 520px; }
+.numbers li {
+  text-align: center; }
+
+.numbers .number {
+  font: normal 600 2.8rem 'AvenirNextCyr';
+  line-height: 38px;
+  text-align: center;
+  color: #F4A876; }
+
+.numbers .letter {
+  font: normal 1.8rem 'AvenirNextCyr';
+  line-height: 25px;
+  text-align: center;
+  color: #C4C4C4; }
+
+.flex8 .textWhoWe,
+.flex9 .textGuarantess {
+  width: 90%;
+  margin: 15px auto; }
 
 /*-----------fonts---------*/
 @font-face {
