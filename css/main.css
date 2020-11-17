@@ -34,6 +34,7 @@ nav a:hover {
 
 .menu-btn-line, .menu-btn-line::before, .menu-btn-line::after {
   position: absolute;
+  left: 0;
   width: 30px;
   height: 1px;
   background-color: #5C5C5C; }
@@ -325,13 +326,13 @@ $slick-dot-size: 6px !default;*/
   font: normal 1.8rem 'AvenirNextCyr';
   line-height: 25px;
   color: #5C5C5C;
-  margin-bottom: 10px; }
+  margin: 10px; }
 
 .textGuarantess p.story {
   font: normal 1.6rem 'AvenirNextCyr';
   line-height: 22px;
   color: #5C5C5C;
-  margin-bottom: 10px; }
+  margin: 10px; }
 
 .numbers li {
   text-align: center; }
@@ -353,6 +354,11 @@ $slick-dot-size: 6px !default;*/
   width: 90%;
   margin: 15px auto; }
 
+/*------------- //aboutUs --------------*/
+/*------------- blog --------------*/
+/*------------- //blog --------------*/
+/*------------- blogSingle --------------*/
+/*------------- //blogSingle --------------*/
 /*-----------fonts---------*/
 @font-face {
   font-family: 'AvenirNextCyr';
@@ -440,19 +446,48 @@ button {
   color: #F4A876; }
 
 /*--------------------------- header ---------------------------*/
+.wrapper .header {
+  height: 100px; }
+
+.header .flex {
+  height: 100%; }
+
 .flex .navMob {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end; }
 
 .navMob .blockLogo {
-  margin: 20px; }
+  margin: 20px;
+  position: absolute;
+  width: 206px;
+  height: 60px;
+  left: calc(50% - 123px); }
 
 .navMob .blockBasket {
-  margin: 20px; }
+  margin: 20px;
+  width: 31px;
+  position: absolute;
+  right: 0;
+  height: 31px; }
+
+.basket .basketMoney {
+  display: none; }
+
+.basket .basketMeter {
+  font: normal 1.4rem AvenirNextCyr;
+  line-height: 19px;
+  text-align: center;
+  color: #f4a876;
+  position: absolute;
+  top: -14px;
+  left: 14px; }
 
 nav a {
   font: normal 1.6rem 'AvenirNextCyr';
@@ -1211,7 +1246,7 @@ table tr td:last-child {
   color: #FFFFFF;
   position: absolute;
   left: calc(50% - 51.5px);
-  bottom: 20px; }
+  bottom: 0; }
 
 .flex7 .navMenuDown {
   margin: 10px; }
@@ -1372,7 +1407,7 @@ table tr td:last-child {
     padding: 0 10px 0 0; }
   .listCategory .itemCategory:first-child {
     margin-left: 0; }
-  .header {
+  .wrapper .header {
     height: 200px; }
   .menu-phone .navMenuUp {
     top: -100px;
@@ -1437,14 +1472,6 @@ table tr td:last-child {
     position: relative; }
   .basket img {
     width: auto; }
-  .basket .basketMeter {
-    font: normal 1.4rem 'AvenirNextCyr';
-    line-height: 19px;
-    text-align: center;
-    color: #F4A876;
-    position: absolute;
-    top: -14px;
-    left: 14px; }
   .screenSlider .blockText {
     width: 536px;
     left: 150px;
