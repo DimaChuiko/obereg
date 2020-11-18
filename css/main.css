@@ -1397,9 +1397,6 @@ table tr td:last-child {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
     height: 100%; }
   .listCategory .itemCategory {
     margin: 0 10px;
@@ -1477,6 +1474,8 @@ table tr td:last-child {
     left: 150px;
     top: 100px; }
   .blockText .textBold {
-    font-size: 4.8rem; } }
+    font-size: 4.8rem; }
+  .basket .basketMoney {
+    display: block; } }
 
 /*@import "forms";*/
