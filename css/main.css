@@ -461,7 +461,8 @@ button {
   justify-content: space-between;
   -webkit-box-align: end;
   -ms-flex-align: end;
-  align-items: end; }
+  align-items: end;
+  position: relative; }
 
 .navMob .blockLogo {
   margin: 20px;
@@ -1410,7 +1411,6 @@ table tr td:last-child {
   .wrapper .header {
     height: 200px; }
   .menu-phone .navMenuUp {
-    top: -100px;
     position: relative;
     left: 0;
     width: 100%; }
@@ -1421,8 +1421,8 @@ table tr td:last-child {
   .menu-phone .one {
     height: auto; }
   .navMob .blockLogo {
-    position: relative;
-    top: 42px; }
+    top: 42px;
+    left: 0; }
   .one .blockSearch {
     top: 50px;
     left: calc(50% - 455px);
