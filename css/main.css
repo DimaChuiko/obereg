@@ -327,6 +327,15 @@ $slick-dot-size: 6px !default;*/
   color: #5C5C5C;
   margin: 10px; }
 
+.textWhoWe .listFabric {
+  text-align: center; }
+
+.listFabric li.fabric {
+  font: normal 1.8rem 'AvenirNextCyr';
+  line-height: 30px;
+  color: #F4A876;
+  margin-right: 5px; }
+
 .flex8 .textWhoWe {
   width: 90%;
   margin: 15px auto; }
@@ -336,8 +345,7 @@ $slick-dot-size: 6px !default;*/
 /*------------- //blog --------------*/
 /*------------- blogSingle --------------*/
 .mainContent .blogSingle {
-  position: relative;
-  height: 700px; }
+  position: relative; }
 
 .blogSingle .lady {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(94.77%, #FFFFFF)), -webkit-gradient(linear, left bottom, left top, from(rgba(244, 168, 118, 0.25)), to(rgba(244, 168, 118, 0.25))), url("../img/woman_24.jpg") top no-repeat;
@@ -349,7 +357,6 @@ $slick-dot-size: 6px !default;*/
 
 .flex11 .blockText3 {
   position: relative;
-  top: 300px;
   padding: 0 15px; }
 
 .blockText3 h2 {
