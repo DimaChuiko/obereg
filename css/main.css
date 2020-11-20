@@ -342,6 +342,45 @@ $slick-dot-size: 6px !default;*/
 
 /*------------- //aboutUs --------------*/
 /*------------- blog --------------*/
+.mainContent .blog {
+  padding-top: 60px; }
+
+.blog .flex10 {
+  border-top: .1rem solid #f4a876;
+  position: relative; }
+
+.flex10 .blockBlogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 70px; }
+
+.flex10 h2 {
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  top: -22px;
+  left: calc(50% - 125px);
+  z-index: 1;
+  background: #ffffff; }
+
+.blockBlogs .post {
+  width: 90%;
+  margin: 30px auto; }
+
+/*---------------------- @media 768 --------------------------*/
+@media screen and (min-width: 768px) {
+  .blockBlogs .post {
+    width: 45%; } }
+
+/*---------------------- @media 1360 --------------------------*/
+@media screen and (min-width: 1360px) {
+  .blockBlogs .post {
+    width: 33%;
+    margin: 2px; } }
+
 /*------------- //blog --------------*/
 /*------------- blogSingle --------------*/
 .mainContent .blogSingle {
