@@ -386,7 +386,7 @@ $slick-dot-size: 6px !default;*/
 .mainContent .blogSingle {
   position: relative; }
 
-.blogSingle .lady {
+.blogSingle .fotoLady {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(94.77%, #FFFFFF)), -webkit-gradient(linear, left bottom, left top, from(rgba(244, 168, 118, 0.25)), to(rgba(244, 168, 118, 0.25))), url("../img/woman_24.jpg") top no-repeat;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 94.77%), linear-gradient(0deg, rgba(244, 168, 118, 0.25), rgba(244, 168, 118, 0.25)), url("../img/woman_24.jpg") top no-repeat;
   background-size: 100vw 350px;
@@ -400,8 +400,7 @@ $slick-dot-size: 6px !default;*/
 
 .blockText3 h2 {
   font: normal 3.6rem 'AvenirNextCyr';
-  line-height: 160%;
-  /* or 58px */
+  line-height: 58px;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -796,9 +795,6 @@ table tr td:last-child {
 .blockPay .payLink {
   margin: 10px; }
 
-/*.blockPay .size {
-  width:130px;
-}*/
 .blockPay .size {
   font: normal 600 2.8rem 'AvenirNextCyr';
   line-height: 31px;
@@ -898,7 +894,7 @@ table tr td:last-child {
 .slider2 .slick-list {
   z-index: 4; }
 
-/*           slider5          */
+/*---------- slider5 ---------*/
 .article1 .slider5 {
   z-index: 1; }
 
@@ -1059,11 +1055,6 @@ table tr td:last-child {
 
 /*----------------------- //popularProduct ----------------------*/
 /*--------------- about -------------*/
-/*.about .backImg {
-  background: linear-gradient(242.85deg, #FFFFFF 18.39%, rgba(255, 255, 255, 0) 57.47%), url('../img/image_back_about.png');
-  background-size: cover;
-  width:100%;
-}*/
 .wrapper .about {
   background: linear-gradient(242.85deg, #FFFFFF 18.39%, rgba(255, 255, 255, 0) 57.47%), url("../img/back_popular.jpg") top no-repeat;
   background-size: 100% 217px; }
@@ -1422,6 +1413,8 @@ table tr td:last-child {
 /*---------------------- @media 1280 --------------------------*/
 /*---------------------- @media 1360 --------------------------*/
 @media screen and (min-width: 1360px) {
+  .wrapper .about {
+    height: 850px; }
   .blockLogoFoot .logoFoot::after {
     top: 50px; }
   .footer .flex7 {
