@@ -315,6 +315,10 @@ $slick-dot-size: 6px !default;*/
   -ms-flex-direction: column;
   flex-direction: column; }
 
+.flex8 .blockImg1 {
+  width: 90%;
+  margin: 0 auto; }
+
 .textWhoWe h2 {
   font: normal 4.8rem 'AvenirNextCyr';
   line-height: 66px;
@@ -640,7 +644,7 @@ nav a {
 
 .formSearch input[type="search"] {
   width: 0px;
-  border-right: .2rem solid #E5E5E5;
+  border-right: .5rem solid #E5E5E5;
   -webkit-transition-property: width, border;
   transition-property: width, border;
   -webkit-transition-duration: 2s, 2s;
@@ -1064,11 +1068,11 @@ table tr td:last-child {
   padding: 220px 10px 0 10px; }
 
 .blockText2 h1 {
-  width: 70%;
+  width: 95%;
   margin: 15px auto; }
 
 .blockText2 p {
-  width: 70%;
+  width: 95%;
   margin: 15px auto;
   font: normal 1.6rem 'AvenirNextCyr';
   line-height: 24px;
@@ -1090,7 +1094,7 @@ table tr td:last-child {
 /*--------------- //about -------------*/
 /*---------------- testimonials ---------------*/
 .wrapper .testimonials {
-  margin-top: 39px;
+  margin-top: 45px;
   margin-bottom: 90px; }
 
 .testimonials .flex4 {
@@ -1348,7 +1352,7 @@ table tr td:last-child {
   .wrapper .about {
     background-size: cover; }
   .flex3 .blockText2 {
-    padding: 200px 10px 0 10px; }
+    padding: 0px 10px 0 10px; }
   .slider4 .article3 {
     width: 350px;
     margin: 5px auto; } }
