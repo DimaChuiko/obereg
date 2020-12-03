@@ -422,9 +422,7 @@ $slick-dot-size: 6px !default;*/
 .wrapper .rowContainer {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: wrap;
-  flex-flow: wrap; }
+  display: flex; }
 
 .mainContent .banner {
   background: url("../img/Rectangle 44.jpg") center no-repeat; }
@@ -1557,6 +1555,11 @@ table tr td:last-child {
   .basket .basketMoney {
     display: block; }
   .flex11 .blockText3 {
-    padding: 0 50px; } }
+    padding: 0 50px; }
+  .navCategory .link {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 100px; } }
 
 /*@import "forms";*/
