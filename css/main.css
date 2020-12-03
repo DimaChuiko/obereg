@@ -418,6 +418,29 @@ $slick-dot-size: 6px !default;*/
   text-align: left; }
 
 /*------------- //blogSingle --------------*/
+/*-------------- CATALOG ------------*/
+.wrapper .rowContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap; }
+
+.mainContent .banner {
+  background: url("../img/Rectangle 44.jpg") center no-repeat; }
+
+.blockText4 h1 {
+  font: normal 600  2.8rem 'AvenirNextCyr';
+  line-height: 38px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF; }
+
+.blockText4 p {
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 19px;
+  color: #FFFFFF; }
+
+/*-------------- //CATALOG ------------*/
 /*-----------fonts---------*/
 @font-face {
   font-family: 'AvenirNextCyr';
