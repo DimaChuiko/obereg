@@ -1555,11 +1555,6 @@ table tr td:last-child {
   .basket .basketMoney {
     display: block; }
   .flex11 .blockText3 {
-    padding: 0 50px; }
-  .navCategory .link {
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    right: 100px; } }
+    padding: 0 50px; } }
 
 /*@import "forms";*/
