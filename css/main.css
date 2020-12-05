@@ -438,6 +438,25 @@ $slick-dot-size: 6px !default;*/
   line-height: 19px;
   color: #FFFFFF; }
 
+.rowContainer h3 {
+  font: normal 1.8rem 'AvenirNextCyr';
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #5C5C5C; }
+
+.gridContainer .breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.breadcrumb li {
+  margin: 10px; }
+
+.breadcrumb li span {
+  font: 500 1.6rem 'AvenirNextCyr';
+  line-height: 19px;
+  color: #5F0B0B; }
+
 /*-------------- //CATALOG ------------*/
 /*----------- guarantee ------------*/
 /*----------- //guarantee ------------*/
