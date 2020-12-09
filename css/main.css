@@ -427,7 +427,7 @@ $slick-dot-size: 6px !default;*/
   flex-flow: wrap; }
 
 .mainContent .banner {
-  background: url("../img/Rectangle 44.jpg") center no-repeat; }
+  background: url("../img/catalog_img.png") center no-repeat; }
 
 .blockText4 h1 {
   font: normal 600  2.8rem 'AvenirNextCyr';
@@ -461,16 +461,51 @@ $slick-dot-size: 6px !default;*/
   letter-spacing: 0.1em;
   color: #C4C4C4; }
 
-.sideMenu .linkSubCategory {
+.sidebar .sideMenu {
+  margin: 30px 10px; }
+
+.listSubCat .itemSubCat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.sideMenu .lineActCat {
+  display: block;
+  width: 29px;
+  height: 1px;
+  background: #F4A876; }
+
+.sideMenu .linkSubCat {
   font: normal 1.4rem 'AvenirNextCyr';
   line-height: 19px;
   color: #C4C4C4; }
 
-.sideMenu .linkSubCategory:hover {
+.sideMenu .linkSubCat:hover {
   color: #5C5C5C; }
 
-.sideMenu .linkSubCategory:active {
+.sideMenu .linkSubCat:active {
   color: #F4A876; }
+
+.mainContent .banner {
+  padding: 50px 10px;
+  width: 100%; }
+
+.blockText4 h1 {
+  position: relative;
+  margin-bottom: 30px; }
+
+.blockText4 h1,
+.blockText4 p {
+  text-align: left; }
+
+.blockText4 h1::after {
+  position: absolute;
+  content: '';
+  width: 46px;
+  height: 3px;
+  background: #F4A876;
+  bottom: -16px;
+  left: 0; }
 
 /*-------------- //CATALOG ------------*/
 /*----------- guarantee ------------*/
