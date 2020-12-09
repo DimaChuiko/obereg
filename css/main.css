@@ -467,12 +467,17 @@ $slick-dot-size: 6px !default;*/
 .listSubCat .itemSubCat {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin: 14px 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .sideMenu .lineActCat {
   display: block;
   width: 29px;
   height: 1px;
+  margin-right: 6px;
   background: #F4A876; }
 
 .sideMenu .linkSubCat {
