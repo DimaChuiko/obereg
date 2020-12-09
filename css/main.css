@@ -422,7 +422,9 @@ $slick-dot-size: 6px !default;*/
 .wrapper .rowContainer {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap; }
 
 .mainContent .banner {
   background: url("../img/Rectangle 44.jpg") center no-repeat; }
@@ -447,15 +449,28 @@ $slick-dot-size: 6px !default;*/
 .gridContainer .breadcrumb {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin: 30px auto; }
 
 .breadcrumb li {
   margin: 10px; }
 
 .breadcrumb li span {
-  font: 500 1.6rem 'AvenirNextCyr';
+  font: normal 1.4rem 'AvenirNextCyr';
   line-height: 19px;
-  color: #5F0B0B; }
+  letter-spacing: 0.1em;
+  color: #C4C4C4; }
+
+.sideMenu .linkSubCategory {
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 19px;
+  color: #C4C4C4; }
+
+.sideMenu .linkSubCategory:hover {
+  color: #5C5C5C; }
+
+.sideMenu .linkSubCategory:active {
+  color: #F4A876; }
 
 /*-------------- //CATALOG ------------*/
 /*----------- guarantee ------------*/
@@ -1497,10 +1512,8 @@ table tr td:last-child {
     display: flex;
     height: 100%; }
   .listCategory .itemCategory {
-    margin: 0 10px;
     border-right: .1rem solid #FFC59E;
-    margin-left: 0;
-    padding: 0 10px 0 0; }
+    margin-left: 0; }
   .listCategory .itemCategory:first-child {
     margin-left: 0; }
   .wrapper .header {
