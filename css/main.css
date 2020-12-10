@@ -512,6 +512,28 @@ $slick-dot-size: 6px !default;*/
   bottom: -16px;
   left: 0; }
 
+/*---------------------- @media 1360 --------------------------*/
+@media screen and (min-width: 1360px) {
+  .mainContent .banner {
+    background: url("../img/catalog_img2.jpg") center no-repeat;
+    background-size: cover;
+    height: 285px;
+    padding: 91px 0 0 119px; }
+  .wrapper .rowContainer {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .sidebar .sideMenu {
+    margin: 0 10px; }
+  .banner .blockText4 {
+    width: 683px; }
+  .blockText4 h1::after {
+    width: 134px; }
+  .rowContainer .sidebar {
+    width: 328px; } }
+
 /*-------------- //CATALOG ------------*/
 /*----------- guarantee ------------*/
 /*----------- //guarantee ------------*/
