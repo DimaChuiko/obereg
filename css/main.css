@@ -512,6 +512,12 @@ $slick-dot-size: 6px !default;*/
   bottom: -16px;
   left: 0; }
 
+.blockSortProd .select {
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 19px;
+  color: #F4A876;
+  border: none; }
+
 /*---------------------- @media 1360 --------------------------*/
 @media screen and (min-width: 1360px) {
   .mainContent .banner {
