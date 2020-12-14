@@ -427,7 +427,8 @@ $slick-dot-size: 6px !default;*/
   flex-flow: wrap; }
 
 .mainContent .banner {
-  background: url("../img/catalog_img.png") center no-repeat; }
+  background: url("../img/catalog_img.png") center no-repeat;
+  background-size: cover; }
 
 .blockText4 h1 {
   font: normal 600  2.8rem 'AvenirNextCyr';
@@ -444,7 +445,13 @@ $slick-dot-size: 6px !default;*/
   font: normal 1.8rem 'AvenirNextCyr';
   line-height: 25px;
   letter-spacing: 0.05em;
-  color: #5C5C5C; }
+  color: #5C5C5C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .gridContainer .breadcrumb {
   display: -webkit-box;
@@ -461,7 +468,8 @@ $slick-dot-size: 6px !default;*/
   letter-spacing: 0.1em;
   color: #C4C4C4; }
 
-.sidebar .sideMenu {
+.sidebar .sideMenu,
+.sidebar .sidearea {
   margin: 30px 10px; }
 
 .listSubCat .itemSubCat {
@@ -512,6 +520,20 @@ $slick-dot-size: 6px !default;*/
   bottom: -16px;
   left: 0; }
 
+.sidearea .iconFiltr {
+  margin-right: 8px;
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: url("../img/filter_icon.svg") no-repeat center; }
+
+.sidearea .iconArrow {
+  margin-left: 5px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url("../img/filtr_arrow.svg") no-repeat center; }
+
 .blockSortProd .select {
   font: normal 1.4rem 'AvenirNextCyr';
   line-height: 19px;
@@ -531,14 +553,17 @@ $slick-dot-size: 6px !default;*/
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-  .sidebar .sideMenu {
+  .sidebar .sideMenu,
+  .sidebar .sidearea {
     margin: 0 10px; }
   .banner .blockText4 {
     width: 683px; }
   .blockText4 h1::after {
     width: 134px; }
   .rowContainer .sidebar {
-    width: 328px; } }
+    width: 328px; }
+  .sidearea .iconArrow {
+    display: none; } }
 
 /*-------------- //CATALOG ------------*/
 /*----------- guarantee ------------*/
