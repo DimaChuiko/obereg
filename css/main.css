@@ -539,6 +539,32 @@ $slick-dot-size: 6px !default;*/
   color: #F4A876;
   border: none; }
 
+.mainContent .blockProduct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.blockProduct .article1 {
+  width: 300px;
+  position: relative;
+  margin: 5px auto;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out; }
+
+.blockProduct .article1:hover {
+  z-index: 6;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2);
+  box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2);
+  border: none; }
+
+.blockProduct .article1:hover table {
+  display: table; }
+
 /*---------------------- @media 1360 --------------------------*/
 @media screen and (min-width: 1360px) {
   .mainContent .banner {
