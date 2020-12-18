@@ -542,7 +542,9 @@ $slick-dot-size: 6px !default;*/
 .mainContent .blockProduct {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap; }
 
 .blockProduct .article1 {
   width: 300px;
@@ -564,6 +566,12 @@ $slick-dot-size: 6px !default;*/
 
 .blockProduct .article1:hover table {
   display: table; }
+
+.textProd1 table {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  background: #fff; }
 
 /*---------------------- @media 1360 --------------------------*/
 @media screen and (min-width: 1360px) {
