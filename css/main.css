@@ -17,7 +17,7 @@
   background: #F4A876; }
 
 .menu-phone a {
-  padding: 15px 15px; }
+  padding: 15px 10px; }
 
 nav a:hover {
   border-bottom: 2px solid; }
@@ -567,6 +567,26 @@ $slick-dot-size: 6px !default;*/
 /*----------- delivery ------------*/
 /*----------- //delivery ------------*/
 /*----------- product_card ------------*/
+.flex14 .tabs {
+  width: 400px;
+  height: 200px;
+  margin: 15px auto; }
+
+.tabs .listItemProd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.listItemProd a {
+  font: 500 1.8rem 'AvenirNextCyr';
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #6b06e7; }
+
 /*----------- //guarantee ------------*/
 /*-----------fonts---------*/
 @font-face {
@@ -701,7 +721,6 @@ button {
 
 nav a {
   font: normal 1.6rem 'AvenirNextCyr';
-  line-height: 22px;
   color: #FFFFFF; }
 
 .menu-phone .one {
