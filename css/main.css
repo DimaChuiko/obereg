@@ -406,25 +406,44 @@ $slick-dot-size: 6px !default;*/
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #F4A876; }
+  color: #F4A876;
+  margin: 15px auto; }
 
-.blockText3 .blogText {
+.blockText3 .text3 {
   font: normal 1.8rem 'AvenirNextCyr';
   line-height: 25px;
   color: #5C5C5C;
   margin: 10px;
   text-align: left; }
 
+.blockText3 ul {
+  margin: 10px; }
+
+.blockText3 ul li {
+  font: normal 1.8rem 'AvenirNextCyr';
+  line-height: 25px;
+  color: #B5B5B5; }
+
 .flex11 .imgPost {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: wrap;
-  flex-flow: wrap; }
+  flex-flow: wrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 15px auto; }
 
 .wrapper .imgPost img {
   width: auto;
   height: 280px; }
+
+/*---------------------- @media 1360 --------------------------*/
+@media screen and (min-width: 1360px) {
+  .flex11 .blockText3 {
+    width: 80%;
+    margin: 15px auto; } }
 
 /*------------- //blogSingle --------------*/
 /*-------------- CATALOG ------------*/
