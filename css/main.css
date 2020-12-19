@@ -576,7 +576,7 @@ $slick-dot-size: 6px !default;*/
   flex-flow: wrap; }
 
 .blockProduct .article1 {
-  width: 95%;
+  width: 300px;
   position: relative;
   margin: 5px auto;
   padding: 10px;
