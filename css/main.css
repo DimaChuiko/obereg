@@ -579,9 +579,10 @@ $slick-dot-size: 6px !default;*/
   width: 300px;
   position: relative;
   margin: 5px auto;
-  padding: 10px;
   background: #FFFFFF;
   border: 1px solid #F0F0F0;
+  -webkit-transform-origin: 5px 10px;
+  transform-origin: 5px 10px;
   -webkit-transition: all 1s ease-out;
   transition: all 1s ease-out; }
 
@@ -589,19 +590,24 @@ $slick-dot-size: 6px !default;*/
   z-index: 6;
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
+  -webkit-transform-origin: 10%;
+  transform-origin: 10%;
   -webkit-box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2);
   box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2);
   border: none; }
 
 .blockProduct .article1:hover table {
-  display: table;
-  padding: 0; }
+  display: table; }
+
+.blockProduct .article1 .textProd1 {
+  position: relative; }
 
 .textProd1 table {
-  display: none;
-  position: absolute;
   z-index: 5;
   background: #fff; }
+
+.textProd1 .maybeProd i {
+  position: inherit; }
 
 /*---------------------- @media 1360 --------------------------*/
 @media screen and (min-width: 1360px) {
@@ -1117,7 +1123,6 @@ table tr td:last-child {
   width: 300px;
   position: relative;
   margin: 5px auto;
-  padding: 10px;
   background: #FFFFFF;
   border: 1px solid #F0F0F0;
   -webkit-transition: all 1s ease-out;
@@ -1128,7 +1133,8 @@ table tr td:last-child {
   position: absolute;
   width: 35px;
   height: 35px;
-  z-index: 5; }
+  z-index: 5;
+  margin: 10px; }
 
 .article1 .labelSale {
   background: url("../img/labelSale_icon.png") center no-repeat; }
@@ -1156,18 +1162,17 @@ table tr td:last-child {
 
 .textProd1 h4 {
   position: relative;
-  padding: 30px 10px;
+  margin: 30px 10px;
   text-align: left; }
 
-.textProd1 h4::before {
+.article1 .slider5::after {
   position: absolute;
   display: block;
   content: '';
   background: url("../img/ornament.png") center no-repeat;
   width: 132px;
   height: 9px;
-  left: calc(50% - 66px);
-  top: 5px; }
+  left: calc(50% - 66px); }
 
 /*           скрывающаяся таблица для популярных товаров            */
 .textProd1 table {
@@ -1175,8 +1180,7 @@ table tr td:last-child {
   line-height: 15px;
   color: #5C5C5C;
   width: 100%;
-  height: 140px;
-  padding: 10px; }
+  height: 140px; }
 
 .textProd1 table tr {
   width: 100%;
@@ -1210,7 +1214,10 @@ table tr td:last-child {
 .textProd1 .maybeProd,
 .textProd1 .notProd {
   position: relative;
-  padding: 5px 30px;
+  margin: 10px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font: normal 1.4rem 'AvenirNextCyr';
   line-height: 15px;
   bottom: 14.5px;
