@@ -594,7 +594,8 @@ $slick-dot-size: 6px !default;*/
   border: none; }
 
 .blockProduct .article1:hover table {
-  display: table; }
+  display: table;
+  padding: 0; }
 
 .textProd1 table {
   display: none;
