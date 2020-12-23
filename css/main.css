@@ -595,9 +595,7 @@ $slick-dot-size: 6px !default;*/
   border: none; }
 
 .blockProduct .article1:hover table {
-  display: table;
-  -webkit-box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2);
-  box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2); }
+  display: table; }
 
 .blockProduct .article1 .textProd1 {
   position: relative; }
