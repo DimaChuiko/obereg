@@ -638,13 +638,7 @@ $slick-dot-size: 6px !default;*/
 /*----------- delivery ------------*/
 /*----------- //delivery ------------*/
 /*----------- product_card ------------*/
-.cardProduct .flex14 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
 .flex14 .tabs {
-  width: 400px;
   height: 200px;
   margin: 15px auto; }
 
@@ -670,6 +664,7 @@ $slick-dot-size: 6px !default;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 300px;
   -ms-flex-flow: wrap;
   flex-flow: wrap;
   -webkit-box-pack: justify;
@@ -677,15 +672,22 @@ $slick-dot-size: 6px !default;*/
   justify-content: space-between; }
 
 .blockImg2 .imgProd3 {
-  width: 100%;
-  height: 300px;
-  background: #000;
+  width: 300px;
   margin: 2px; }
 
 .blockImg2 .mini {
-  width: 100px;
-  height: 100px;
-  background: #F00; }
+  width: 95px; }
+
+.blockSize .sizeProd {
+  width: 34px;
+  height: 31px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 19px;
+  text-align: center;
+  color: #5C5C5C;
+  padding: 5px 0; }
 
 /*----------- //guarantee ------------*/
 /*-----------fonts---------*/
@@ -1299,22 +1301,22 @@ table tr td:last-child {
   left: 13px;
   bottom: 10px; }
 
-.blockSize .oldSize1 {
+.blockPrice .oldSize1 {
   font: normal 1.4rem 'AvenirNextCyr';
   line-height: 15px;
   color: #C4C4C4;
   position: relative;
   display: inline-block; }
 
-.blockSize .size1 {
+.blockPrice .size1 {
   font: normal 600 2.4rem 'AvenirNextCyr';
   line-height: 26px;
   color: #5C5C5C; }
 
-.blockSize p {
+.blockPrice p {
   text-align: left; }
 
-.blockSize .oldSize1::before {
+.blockPrice .oldSize1::before {
   position: absolute;
   content: '';
   width: 100%;
