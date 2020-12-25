@@ -638,6 +638,9 @@ $slick-dot-size: 6px !default;*/
 /*----------- delivery ------------*/
 /*----------- //delivery ------------*/
 /*----------- product_card ------------*/
+.cardProduct h1 {
+  font-size: 3rem; }
+
 .flex14 .tabs {
   height: 200px;
   margin: 15px auto; }
@@ -690,6 +693,76 @@ $slick-dot-size: 6px !default;*/
   padding: 5px 0; }
 
 /*----------- //guarantee ------------*/
+.sliderProd {
+  overflow: hidden;
+  margin-bottom: 20px; }
+
+.sliderProd ul {
+  margin: 0;
+  padding: 0; }
+
+/* Кнопки управления */
+.bx-wrapper {
+  position: relative; }
+
+.sliderProd .bx-controls-direction {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 536px; }
+
+.sliderProd .bx-controls-direction a:hover {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%); }
+
+.sliderProd .bx-prev {
+  background: url(/prev.png) 0 0 no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: -15px;
+  top: 50%;
+  left: 30px;
+  overflow: hidden;
+  text-indent: 999px;
+  z-index: 1000; }
+
+.sliderProd .bx-next {
+  background: url(/next.png) 0 0 no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: -15px;
+  top: 50%;
+  right: 30px;
+  overflow: hidden;
+  text-indent: 999px;
+  z-index: 1000; }
+
+/* Превью */
+.slider_pager ul {
+  margin: 0;
+  padding: 0; }
+
+/*.slider_pager ul li {
+  display:;
+}*/
+.slider_pager li {
+  margin: 0 1px 10px 0;
+  display: inline-block;
+  width: 100px; }
+
+.slider_pager li a img {
+  border: 1px solid #ddd;
+  width: 100%;
+  height: auto; }
+
+.slider_pager .active img {
+  border: 1px solid #0546a2; }
+
 /*-----------fonts---------*/
 @font-face {
   font-family: 'AvenirNextCyr';
