@@ -723,10 +723,12 @@ $slick-dot-size: 6px !default;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
   margin: 10px 0; }
 
 .blockSize ul li {
-  margin: 0 5px; }
+  margin: 5px; }
 
 .blockUp .yesProd1 {
   height: -webkit-min-content;
@@ -738,8 +740,100 @@ $slick-dot-size: 6px !default;*/
   line-height: 110%;
   color: #52BD10; }
 
-.blockPay1Call .blockPay1 .payLink1 {
+.blockRight .blockMedium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.blockMedium .blockSize,
+.blockMedium .blockPrice {
+  width: 50%;
+  margin: 10px; }
+
+.blockMedium1 .blockPay1 .payLink1 {
   display: inline-block; }
+
+.blockMedium .blockPrice {
+  margin: 10px; }
+
+.blockMedium .blockPrice .size1 {
+  font-size: 3rem; }
+
+.blockPrice .blockOldSize {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.blockMedium .blockPrice .oldSize1 {
+  margin-right: 10px;
+  text-align: right; }
+
+.blockOldSize .labelSale {
+  width: 35px;
+  height: 35px;
+  background: url("../img/labelSale_icon.png") center no-repeat; }
+
+.blockMedium .blockPrice p {
+  text-align: right; }
+
+.blockRight .blockMedium1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  margin: 5px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.blockMedium1 .blockPay1 .payLink1 {
+  text-align: right; }
+
+.formCallback #backPhone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  margin-bottom: 10px; }
+
+#backPhone input {
+  width: 50%;
+  padding: 20px; }
+
+#backPhone input[type="telephone"] {
+  border: 1px solid #E5E5E5; }
+
+#backPhone input[type="submit"] {
+  color: #F4A876;
+  background: #fff;
+  border: 1px solid #F4A876; }
+
+.blockRight .blockTable {
+  margin: 15px 0; }
+
+.blockTable table {
+  width: 100%;
+  text-align: left;
+  background: rgba(244, 168, 118, 0.05); }
+
+.blockTable table {
+  font: normal 1.2rem 'AvenirNextCyr';
+  line-height: 19px;
+  color: #C4C4C4; }
+
+.blockTable table tr {
+  margin: 10px 0; }
+
+.blockTable table tr td:last-child {
+  text-align: left; }
 
 /*----------- //guarantee ------------*/
 .sliderProd {
