@@ -838,9 +838,17 @@ $slick-dot-size: 6px !default;*/
 .tabs .listItemProd {
   margin-bottom: 20px; }
 
+.listItemProd li {
+  padding: 10px; }
+
 #fragment-4 .textEmail input {
   border: 1px solid #E5E5E5;
   padding: 15px; }
+
+/*.ui-tabs-tab, .ui-corner-top, .ui-state-default, .ui-tab,*/
+.ui-tabs-active,
+.ui-state-active, .ui-state-focus {
+  border: 1px solid #F4A876; }
 
 /*---------------------- @media --------------------------*/
 @media screen and (min-width: 768px) {
