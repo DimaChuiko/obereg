@@ -638,8 +638,15 @@ $slick-dot-size: 6px !default;*/
 /*----------- delivery ------------*/
 /*----------- //delivery ------------*/
 /*----------- product_card ------------*/
-.cardProduct h1 {
-  font-size: 3rem; }
+.cardProduct .flex14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap; }
+
+.flex14 .blockLeft {
+  width: 100%; }
 
 .flex14 .tabs {
   height: 200px;
@@ -692,14 +699,38 @@ $slick-dot-size: 6px !default;*/
   color: #5C5C5C;
   padding: 5px 0; }
 
+.blockRight .blockUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap; }
+
+.blockUp h1 {
+  font: normal 2.8rem 'AvenirNextCyr';
+  line-height: 44px;
+  color: #5C5C5C;
+  width: 95%;
+  text-align: left; }
+
+.blockUp .yesProd1 {
+  border: 1px solid #52BD10;
+  padding: 10px;
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 110%;
+  color: #52BD10; }
+
 /*----------- //guarantee ------------*/
 .sliderProd {
   overflow: hidden;
-  margin-bottom: 20px; }
+  margin: 10px auto; }
 
 .sliderProd ul {
   margin: 0;
   padding: 0; }
+
+.sliderProd li {
+  position: inherit; }
 
 /* Кнопки управления */
 .bx-wrapper {
@@ -744,6 +775,9 @@ $slick-dot-size: 6px !default;*/
 
 /* Превью */
 .slider_pager ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: 0;
   padding: 0; }
 
