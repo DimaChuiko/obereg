@@ -882,6 +882,16 @@ $slick-dot-size: 6px !default;*/
   .blockTable table {
     font-size: 1.4rem; } }
 
+@media screen and (min-width: 1024) {
+  .flex14 .blockLeft,
+  .flex14 .blockRight {
+    width: 50%; }
+  .cardProduct .flex14 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row;
+    flex-flow: row; } }
+
 /*----------- //guarantee ------------*/
 .sliderProd {
   overflow: hidden;
@@ -945,8 +955,7 @@ $slick-dot-size: 6px !default;*/
 }*/
 .slider_pager li {
   margin: 0 1px 10px 0;
-  display: inline-block;
-  width: 100px; }
+  display: inline-block; }
 
 .slider_pager li a img {
   border: 1px solid #ddd;
