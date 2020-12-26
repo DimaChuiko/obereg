@@ -28,7 +28,7 @@
     useCSS: true,
     preloadImages: 'visible',
     responsive: true,
-    slideZIndex: 50,
+    //slideZIndex: 50,
     wrapperClass: 'bx-wrapper',
 
     // TOUCH

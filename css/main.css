@@ -646,7 +646,7 @@ $slick-dot-size: 6px !default;*/
   flex-flow: wrap; }
 
 .flex14 .blockLeft {
-  width: 100%; }
+  margin: 0 10px; }
 
 .flex14 .tabs {
   height: 200px;
@@ -704,21 +704,42 @@ $slick-dot-size: 6px !default;*/
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: wrap;
-  flex-flow: wrap; }
+  flex-flow: wrap;
+  margin: 0 10px;
+  padding-bottom: 10px;
+  border-bottom: .1rem solid #F0F0F0; }
 
 .blockUp h1 {
-  font: normal 2.8rem 'AvenirNextCyr';
+  font: normal 2.7rem 'AvenirNextCyr';
   line-height: 44px;
   color: #5C5C5C;
   width: 95%;
   text-align: left; }
 
+.blockSize h4 {
+  margin: 10px 0; }
+
+.blockSize ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0; }
+
+.blockSize ul li {
+  margin: 0 5px; }
+
 .blockUp .yesProd1 {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   border: 1px solid #52BD10;
   padding: 10px;
   font: normal 1.4rem 'AvenirNextCyr';
   line-height: 110%;
   color: #52BD10; }
+
+.blockPay1Call .blockPay1 .payLink1 {
+  display: inline-block; }
 
 /*----------- //guarantee ------------*/
 .sliderProd {
@@ -728,9 +749,6 @@ $slick-dot-size: 6px !default;*/
 .sliderProd ul {
   margin: 0;
   padding: 0; }
-
-.sliderProd li {
-  position: inherit; }
 
 /* Кнопки управления */
 .bx-wrapper {
