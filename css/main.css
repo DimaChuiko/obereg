@@ -662,10 +662,10 @@ $slick-dot-size: 6px !default;*/
   justify-content: space-between; }
 
 .listItemProd a {
-  font: 500 1.8rem 'AvenirNextCyr';
-  line-height: 25px;
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 110%;
   letter-spacing: 0.05em;
-  color: #6b06e7; }
+  color: #5C5C5C; }
 
 .blockTable td {
   width: auto; }
@@ -806,7 +806,7 @@ $slick-dot-size: 6px !default;*/
 
 #backPhone input {
   width: 50%;
-  padding: 20px; }
+  padding: 15px; }
 
 #backPhone input[type="telephone"] {
   border: 1px solid #E5E5E5; }
@@ -834,6 +834,18 @@ $slick-dot-size: 6px !default;*/
 
 .blockTable table tr td:last-child {
   text-align: left; }
+
+.tabs .listItemProd {
+  margin-bottom: 20px; }
+
+#fragment-4 .textEmail input {
+  border: 1px solid #E5E5E5;
+  padding: 15px; }
+
+/*---------------------- @media --------------------------*/
+@media screen and (min-width: 768px) {
+  .listItemProd a {
+    font-size: 1.8rem; } }
 
 /*----------- //guarantee ------------*/
 .sliderProd {
