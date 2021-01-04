@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/main.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/main.min.css" media="all">
 </head>
 <body>
-<!-- wrapper -->
 <div class="wrapper">
 <!-- header -->
 <header class="header">
@@ -19,13 +18,13 @@
     </button>
     <div class="blockLogo">
       <a class="logoHead" href="index.html">
-          <img src="img/logo_head.svg" alt="">
+          <img src="img/logo_head.svg" alt="img">
         </a>
     </div>
     <div class="blockBasket">
         <a href="#" class="basket">
           <span class="basketMeter">2</span>
-          <img src="img/shopping-cart111.svg" alt="">
+          <img src="img/shopping-cart111.svg" alt="img">
           <p class="basketMoney">1 232 $</p>
         </a>
       </div>
@@ -36,19 +35,19 @@
     <div class="blockSearch">
       <form class="formSearch" method="GET">
         <input class="noHover" type="search" name="search" placeholder="Код или название товара">
-        <input type="submit" name="">
+        <input type="submit" name="submit">
       </form>
     </div>
     <div class="blockMonLang">
       <form class="formLang" method="GET">
-        <select class="colorOrange" name="language" id="">
+        <select class="colorOrange" name="language" id="language">
           <option selected>RU</option>
           <option>UA</option>
           <option>EN</option>
         </select>
       </form>
     <form class="formMoney" method="GET">
-      <select class="colorOrange" name="money" id="">
+      <select class="colorOrange" name="money" id="money">
         <option selected>₴</option>
         <option>€</option>
         <option>$</option>
@@ -117,10 +116,7 @@
         </div>
       </div>
     </div>
-<!--               //screenSlider                  -->
-<!-- main Content -->
 <main class="mainContent">
-<!--                           new Product                     -->
 <section class="newProduct">
   <div class="gridContainer flex1">
     <h2>НОВИНКИ</h2>
@@ -172,12 +168,6 @@
                 </svg>
               </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .article:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
         </div>
       </article>
@@ -229,12 +219,6 @@
                 </svg>
               </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .article:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
         </div>
       </article>
@@ -286,12 +270,6 @@
                 </svg>
               </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .article:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
         </div>
       </article>
@@ -343,12 +321,6 @@
                 </svg>
               </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .article:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
         </div>
       </article>
@@ -400,12 +372,6 @@
                 </svg>
               </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .article:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
         </div>
       </article>
@@ -457,12 +423,6 @@
                 </svg>
               </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .article:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
         </div>
       </article>
@@ -514,12 +474,6 @@
                 </svg>
               </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .article:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
         </div>
       </article>
@@ -571,12 +525,6 @@
                 </svg>
               </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .article:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
         </div>
       </article>
@@ -585,8 +533,8 @@
     <div class="meter"><span id="cp">1 </span> \ 8</div>
   </div>
 </section>
-<!--                   //new Product                       -->
-<!--                          popular Product                         -->
+<!-- //new Product -->
+<!-- popular Product -->
 <section class="popularProduct">
   <div class="gridContainer flex2">
     <h2>ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
@@ -617,8 +565,8 @@
               <p class="size1">11 900 ₴</p>
             </div>
             <a href="#" class="payLink1">
-              <i class="basket">
-              <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <i class="basket"></i>КУПИТЬ</a>
+              <!-- <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                   <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876"/>
                   <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876"/>
@@ -629,14 +577,7 @@
                     <path d="M0 0H31V31H0V0Z" fill="white"/>
                   </clipPath>
                 </defs>
-              </svg></i>КУПИТЬ
-            </a>
-            <style type="text/css">
-              .article1:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
+              </svg> -->
           </div>
           <table>
             <tr>
@@ -694,14 +635,9 @@
                     <path d="M0 0H31V31H0V0Z" fill="white"/>
                   </clipPath>
                 </defs>
-              </svg></i>КУПИТЬ
+              </svg>
+            </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .textProd1:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
           <table>
             <tr>
@@ -759,14 +695,9 @@
                     <path d="M0 0H31V31H0V0Z" fill="white"/>
                   </clipPath>
                 </defs>
-              </svg></i>КУПИТЬ
+              </svg>
+            </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .textProd1:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
           <table>
             <tr>
@@ -821,14 +752,9 @@
                     <path d="M0 0H31V31H0V0Z" fill="white"/>
                   </clipPath>
                 </defs>
-              </svg></i>КУПИТЬ
+              </svg>
+            </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .textProd1:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
           <table>
             <tr>
@@ -886,14 +812,9 @@
                     <path d="M0 0H31V31H0V0Z" fill="white"/>
                   </clipPath>
                 </defs>
-              </svg></i>КУПИТЬ
+              </svg>
+            </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .textProd1:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
           <table>
             <tr>
@@ -954,14 +875,9 @@
                     <path d="M0 0H31V31H0V0Z" fill="white"/>
                   </clipPath>
                 </defs>
-              </svg></i>КУПИТЬ
+              </svg>
+            </i>КУПИТЬ
             </a>
-            <style type="text/css">
-              .textProd1:hover i svg {
-                fill: #ffffff;
-                stroke: #ffffff;
-              }
-            </style>
           </div>
           <table>
             <tr>
@@ -1048,7 +964,7 @@
   </div>
 </section>
 <!-- //testimonials -->
-<!--------------------- last Posts -------------------->
+<!-- last Posts -->
 <section class="lastPosts">
   <div class="gridContainer flex5">
     <h2>ПОСЛЕДНИЕ СТАТЬИ</h2>
@@ -1152,16 +1068,16 @@
 </div>
 <!-- //wrapper -->
 <!-- script -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-      $( function() {
-        $( "#tabs" ).tabs();
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $( function() {
+      $( "#tabs" ).tabs();
       } );
     </script>
     <script src="js/slick.min.js"></script>
-    <script type="text/javascript">
+    <script>
       $(document).ready(function(){
       $('.slider').slick({
         arrows: false,
@@ -1209,7 +1125,6 @@
           }
         }
       ]
-
       });
       $('.slider3').slick({
         arrows: false,

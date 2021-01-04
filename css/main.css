@@ -96,9 +96,6 @@ nav a:hover {
   padding: 0; }
   .slick-list:focus {
     outline: none; }
-  .slick-list.dragging {
-    cursor: pointer;
-    cursor: hand; }
 
 .slick-slider .slick-track,
 .slick-slider .slick-list {
@@ -776,8 +773,8 @@ $slick-dot-size: 6px !default;*/
   text-align: right; }
 
 .blockOldSize .labelSale {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   background: url("../img/labelSale_icon.png") center no-repeat; }
 
 .blockMedium .blockPrice p {
@@ -811,13 +808,28 @@ $slick-dot-size: 6px !default;*/
   width: 50%;
   padding: 15px; }
 
-#backPhone input[type="telephone"] {
-  border: 1px solid #E5E5E5; }
+#backPhone input[type="tel"] {
+  border: 1px solid #E5E5E5;
+  text-align: center;
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 110%;
+  color: #5C5C5C; }
 
 #backPhone input[type="submit"] {
-  color: #F4A876;
   background: #fff;
-  border: 1px solid #F4A876; }
+  border: 1px solid #F4A876;
+  font: normal 1.6rem 'AvenirNextCyr';
+  line-height: 110%;
+  letter-spacing: 0.15em;
+  color: #F4A876; }
+
+#backPhone input[type="submit"]:hover {
+  color: #ffffff;
+  background: #F4A876;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 11px 2px 30px rgba(244, 168, 118, 0.25);
+  box-shadow: 11px 2px 30px rgba(244, 168, 118, 0.25); }
 
 .blockRight .blockTable {
   margin: 15px 0; }
@@ -1411,6 +1423,10 @@ table tr td:last-child {
   letter-spacing: 0.055em;
   color: #F4A876; }
 
+.article:hover i svg {
+  fill: #ffffff;
+  stroke: #ffffff; }
+
 /*----------------------- //newProduct -----------------------*/
 /*--------------- popularProduct -------------*/
 .wrapper .popularProduct {
@@ -1570,11 +1586,15 @@ table tr td:last-child {
   transition: all 1s ease-out; }
 
 .payLink1 .basket {
+  background: url("../img/shopping-cart555_orange.svg") center no-repeat;
   position: absolute;
   width: 30px;
   height: 30px;
   left: 13px;
   bottom: 10px; }
+
+.article1:hover .basket {
+  background: url("../img/shopping-cart555_white.svg") center no-repeat; }
 
 .blockPrice .oldSize1 {
   font: normal 1.4rem 'AvenirNextCyr';
@@ -1623,6 +1643,10 @@ table tr td:last-child {
   background: url("../img/arrow_slider5_right.png") center no-repeat;
   bottom: calc(50% - 16px);
   left: 230px; }
+
+.article1:hover i {
+  fill: #ffffff;
+  stroke: #ffffff; }
 
 /*----------------------- //popularProduct ----------------------*/
 /*--------------- about -------------*/

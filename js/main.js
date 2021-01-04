@@ -3,3 +3,4 @@
 //= nav.js
 //= slick.js
 //= jquery.bxslider.js
+//= sliders.js
