@@ -635,17 +635,23 @@ $slick-dot-size: 6px !default;*/
 /*----------- delivery ------------*/
 /*----------- //delivery ------------*/
 /*----------- product_card ------------*/
+.mainContent .cardProduct {
+  padding-bottom: 50px; }
+
 .cardProduct .flex14 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: wrap;
-  flex-flow: wrap; }
+  flex-flow: wrap;
+  border-bottom: .1rem solid #E5E5E5; }
 
 .flex14 .blockLeft {
+  /*width:100%;*/
   margin: 0 10px; }
 
 .flex14 .tabs {
+  /*width: 400px;*/
   height: 200px;
   margin: 15px auto; }
 
@@ -752,6 +758,7 @@ $slick-dot-size: 6px !default;*/
   display: inline-block; }
 
 .blockMedium .blockPrice {
+  /*width: 120px;*/
   margin: 10px; }
 
 .blockMedium .blockPrice .size1 {
@@ -820,7 +827,6 @@ $slick-dot-size: 6px !default;*/
   border: 1px solid #F4A876;
   font: normal 1.6rem 'AvenirNextCyr';
   line-height: 110%;
-  letter-spacing: 0.15em;
   color: #F4A876; }
 
 #backPhone input[type="submit"]:hover {
