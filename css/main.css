@@ -570,12 +570,15 @@ $slick-dot-size: 6px !default;*/
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: wrap;
-  flex-flow: wrap; }
+  flex-flow: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .blockProduct .article1 {
   width: 300px;
   position: relative;
-  margin: 5px auto;
+  margin: 5px 0;
   background: #FFFFFF;
   border: 1px solid #F0F0F0;
   -webkit-transform-origin: 5px 10px;
@@ -647,7 +650,7 @@ $slick-dot-size: 6px !default;*/
   border-bottom: .1rem solid #E5E5E5; }
 
 .flex14 .blockLeft {
-  /*width:100%;*/
+  width: 100%;
   margin: 0 10px; }
 
 .flex14 .tabs {
@@ -877,24 +880,51 @@ $slick-dot-size: 6px !default;*/
   border: 1px solid #F4A876;
   color: #F4A876; }
 
-.flex15 .blockSimilarProd {
+section .blockSimilarProd,
+section .blockViewedProd {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
-.flex16 .blockViewedProd {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-section .article1 {
+.blockSimilarProd .article1,
+.blockViewedProd .article1 {
   width: 300px;
   position: relative;
-  margin: 5px auto;
-  background: #fff;
-  border: 1px solid #f0f0f0;
+  margin: 5px 0;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  -webkit-transform-origin: 5px 10px;
+  transform-origin: 5px 10px;
   -webkit-transition: all 1s ease-out;
   transition: all 1s ease-out; }
+
+.blockSimilarProd .article1:hover,
+.blockViewedProd .article1:hover {
+  z-index: 6;
+  -webkit-transform: scaleY(1.02);
+  transform: scaleY(1.02);
+  -webkit-box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2);
+  box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2);
+  border: none; }
+
+.blockSimilarProd .article1:hover table,
+.blockViewedProd .article1:hover table {
+  display: table; }
+
+.blockSimilarProd .article1 .textProd1,
+.blockViewedProd .article1 .textProd1 {
+  position: relative; }
+
+.blockSimilarProd .article1 table,
+.blockViewedProd .article1 table {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  padding: 0 10px;
+  background: #fff; }
 
 /*---------------------- @media --------------------------*/
 @media screen and (min-width: 667px) {
@@ -924,11 +954,12 @@ section .article1 {
   .flex14 .blockRight {
     width: 50%; }
   .cardProduct .flex14 {
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-flow: row;
-    flex-flow: row; } }
+    -ms-flex-direction: nowrap;
+    flex-direction: nowrap; } }
 
+/*              @media 1360px                */
 /*----------- //guarantee ------------*/
 .sliderProd {
   overflow: hidden;
