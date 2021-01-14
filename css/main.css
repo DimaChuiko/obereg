@@ -1759,6 +1759,14 @@ $slick-dot-size: 6px !default;*/
 .textProd1 .maybeProd i {
   position: inherit; }
 
+.textProd1 h4 a {
+  font: normal 1.6rem 'AvenirNextCyr';
+  line-height: 22px;
+  color: #787878; }
+
+.textProd1 h4 a:hover {
+  color: #F4A876; }
+
 /*---------------------- @media 1360 --------------------------*/
 @media screen and (min-width: 1360px) {
   .mainContent .banner {
@@ -1794,15 +1802,23 @@ $slick-dot-size: 6px !default;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: wrap;
-  flex-flow: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   border-bottom: .1rem solid #E5E5E5; }
 
 .flex14 .blockLeft {
   margin: 0 10px; }
 
+.flex14 .blockLeft,
+.flex14 .blockRight {
+  width: 100%;
+  margin: 0 auto; }
+
 .flex14 .tabs {
-  /*width: 400px;*/
   height: 200px;
   margin: 15px auto; }
 
@@ -1898,7 +1914,10 @@ $slick-dot-size: 6px !default;*/
 .blockRight .blockMedium {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .blockMedium .blockSize,
 .blockMedium .blockPrice {
@@ -2035,13 +2054,15 @@ section .blockViewedProd {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .blockSimilarProd .article1,
 .blockViewedProd .article1 {
   width: 300px;
   position: relative;
-  margin: 5px 0;
+  margin: 5px auto;
   background: #FFFFFF;
   border: 1px solid #F0F0F0;
   -webkit-transform-origin: 5px 10px;
@@ -2097,18 +2118,30 @@ section .blockViewedProd {
   .blockTable table {
     font-size: 1.4rem; } }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1280px) {
+  .cardProduct .flex14 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
   .flex14 .blockLeft,
   .flex14 .blockRight {
     width: 50%; }
-  .cardProduct .flex14 {
+  .flex14 .blockRight {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: nowrap;
-    flex-direction: nowrap; } }
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; } }
 
 /*              @media 1360px                */
-/*----------- //guarantee ------------*/
 .sliderProd {
   overflow: hidden;
   margin: 10px auto; }
