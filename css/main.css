@@ -187,10 +187,8 @@ button {
 
 .navMob .blockBasket {
   margin: 20px;
-  width: 31px;
   position: absolute;
-  right: 0;
-  height: 31px; }
+  right: 0; }
 
 .basket .basketMoney {
   display: none; }
@@ -1141,7 +1139,7 @@ table tr td:last-child {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 100%; }
+    height: 55px; }
   .listCategory .itemCategory {
     border-right: .1rem solid #FFC59E;
     margin-left: 0; }
@@ -1195,7 +1193,6 @@ table tr td:last-child {
     position: absolute;
     z-index: 2;
     right: calc(50% - 700px);
-    width: 100px;
     top: 45px; }
   .blockBasket .basket {
     display: -webkit-box;
@@ -1630,10 +1627,16 @@ $slick-dot-size: 6px !default;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 30px auto; }
+  margin: 30px auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.breadcrumb .orangeDots {
+  color: #F4A876; }
 
 .breadcrumb li {
-  margin: 10px; }
+  padding: 5px; }
 
 .breadcrumb li span {
   font: normal 1.4rem 'AvenirNextCyr';
@@ -1796,9 +1799,6 @@ $slick-dot-size: 6px !default;*/
 /*----------- delivery ------------*/
 /*----------- //delivery ------------*/
 /*----------- product_card ------------*/
-.mainContent .cardProduct {
-  padding-bottom: 50px; }
-
 .cardProduct .flex14 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1822,6 +1822,12 @@ $slick-dot-size: 6px !default;*/
 .flex14 .tabs {
   height: 200px;
   margin: 15px auto; }
+
+.bread .homeLink {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url("../img/bread_home_img.png") center no-repeat; }
 
 .tabs .listItemProd {
   display: -webkit-box;
@@ -1951,6 +1957,7 @@ $slick-dot-size: 6px !default;*/
   text-align: right; }
 
 .blockOldSize .labelSale {
+  border-radius: 50%;
   width: 30px;
   height: 30px;
   background: url("../img/labelSale_icon.png") center no-repeat; }
@@ -2119,6 +2126,8 @@ section .blockViewedProd {
   .blockTable table {
     font-size: 1.4rem; } }
 
+/*              @media 1024px                */
+/*              @media 1280px                */
 @media screen and (min-width: 1280px) {
   .cardProduct .flex14 {
     -webkit-box-orient: horizontal;
@@ -2126,7 +2135,8 @@ section .blockViewedProd {
     -ms-flex-direction: row;
     flex-direction: row;
     -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap; }
+    flex-wrap: nowrap;
+    padding-bottom: 50px; }
   .flex14 .blockLeft,
   .flex14 .blockRight {
     width: 50%; }
