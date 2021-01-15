@@ -717,18 +717,16 @@ table tr td:last-child {
 
 .slider5 .slick-prev,
 .slider5 .slick-next {
-  width: 30px;
-  height: 30px;
-  right: 0;
-  left: 0;
+  /*width: 22px;
+  height:32px;*/
+  background: none;
+  border: none;
   z-index: 5; }
 
-.slider5 .slick-prev,
-.slider5 .slick-next {
+.article1:hover .slider5 .slick-prev,
+.article1:hover .slider5 .slick-next {
   width: 22px;
-  height: 32px;
-  background: none;
-  border: none; }
+  height: 32px; }
 
 .slider5 .slick-prev {
   background: url("../img/arrow_slider5_left.png") center no-repeat;
@@ -738,7 +736,7 @@ table tr td:last-child {
 .slider5 .slick-next {
   background: url("../img/arrow_slider5_right.png") center no-repeat;
   bottom: calc(50% - 16px);
-  left: 230px; }
+  right: 20px; }
 
 .article1:hover i {
   fill: #ffffff;
@@ -1341,7 +1339,6 @@ $slick-dot-size: 6px !default;*/
   .slick-next:hover,
   .slick-next:focus {
     outline: none;
-    background: red;
     color: transparent; }
     .slick-prev:hover:before, .slick-prev:focus:before,
     .slick-next:hover:before,
@@ -1739,8 +1736,8 @@ $slick-dot-size: 6px !default;*/
 
 .blockProduct .article1:hover {
   z-index: 6;
-  -webkit-transform: scaleY(1.02);
-  transform: scaleY(1.02);
+  -webkit-transform: scaleY(1.01);
+  transform: scaleY(1.01);
   -webkit-box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2);
   box-shadow: 10px 20px 70px rgba(244, 168, 118, 0.2);
   border: none; }
