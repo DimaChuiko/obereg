@@ -1190,8 +1190,7 @@ table tr td:last-child {
   .slick-slide img.img2 {
     height: 700px; }
   .one .blockMonLang {
-    z-index: 1;
-    right: calc(50% - 700px); }
+    z-index: 1; }
   .navMob .blockBasket {
     position: absolute;
     z-index: 2;
@@ -1727,7 +1726,7 @@ $slick-dot-size: 6px !default;*/
 .blockProduct .article1 {
   width: 300px;
   position: relative;
-  margin: 5px 0;
+  margin: 5px auto;
   background: #FFFFFF;
   border: 1px solid #F0F0F0;
   -webkit-transform-origin: 5px 10px;
@@ -1787,7 +1786,9 @@ $slick-dot-size: 6px !default;*/
   .rowContainer .sidebar {
     width: 328px; }
   .sidearea .iconArrow {
-    display: none; } }
+    display: none; }
+  .blockProduct .article1 {
+    margin: 5px 0; } }
 
 /*-------------- //CATALOG ------------*/
 /*----------- guarantee ------------*/
