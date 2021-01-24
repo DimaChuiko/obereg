@@ -1618,18 +1618,18 @@ $slick-dot-size: 6px !default;*/
   background: url("../img/catalog_img.png") center no-repeat;
   background-size: cover; }
 
-.blockText4 h1 {
-  font: normal 600  2.8rem 'AvenirNextCyr';
-  line-height: 38px;
-  letter-spacing: 0.05em;
-  color: #FFFFFF; }
-
+/*.blockText4 h1 {
+	font:normal 600  2.8rem 'AvenirNextCyr';
+	line-height: 38px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}*/
 .blockText4 p {
-  font: normal 1.4rem 'AvenirNextCyr';
-  line-height: 19px;
+  font: normal 2rem 'AvenirNextCyr';
+  line-height: 29px;
   color: #FFFFFF; }
 
-.rowContainer h3 {
+.rowContainer h1 {
   font: normal 1.8rem 'AvenirNextCyr';
   line-height: 25px;
   letter-spacing: 0.05em;
