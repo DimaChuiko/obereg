@@ -1787,6 +1787,31 @@ $slick-dot-size: 6px !default;*/
 .textProd1 h4 a:hover {
   color: #F4A876; }
 
+.loadMoreLink .loadIcon {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url("../img/loadMoreButton.png") center no-repeat;
+  margin: 0 5px; }
+
+.paginator .loadMoreLink {
+  font: normal 1.4rem 'AvenirNextCyr';
+  line-height: 110%;
+  /* or 15px */
+  text-align: center;
+  color: #F4A876;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px auto;
+  padding: 15px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 20px rgba(244, 168, 118, 0.25);
+  box-shadow: 0px 10px 20px rgba(244, 168, 118, 0.25); }
+
 /*---------------------- @media 1360 --------------------------*/
 @media screen and (min-width: 1360px) {
   .mainContent .banner {
