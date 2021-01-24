@@ -1812,6 +1812,26 @@ $slick-dot-size: 6px !default;*/
   -webkit-box-shadow: 0px 10px 20px rgba(244, 168, 118, 0.25);
   box-shadow: 0px 10px 20px rgba(244, 168, 118, 0.25); }
 
+.pagination .buttonLeft {
+  background: url("../img/Vector_left_botton_page.svg") center no-repeat;
+  width: 4px;
+  height: 8px; }
+
+.pagination .buttonRight {
+  background: url("../img/Vector_right_botton_page.svg") center no-repeat;
+  width: 4px;
+  height: 8px; }
+
+.paginator .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.pagination .paginationList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 /*---------------------- @media 1360 --------------------------*/
 @media screen and (min-width: 1360px) {
   .mainContent .banner {
