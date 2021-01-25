@@ -1135,7 +1135,7 @@ table tr td:last-child {
   .flex7 .sociatyLink {
     margin: 0 auto; }
   .menu-phone {
-    position: inherit;
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1146,9 +1146,9 @@ table tr td:last-child {
   .menu-open-btn {
     display: none; }
   .menu-phone .navCategory {
-    width: 100%;
+    width: 100vw;
     position: absolute;
-    bottom: 0;
+    bottom: -151px;
     height: 55px; }
   .navCategory .listCategory {
     display: -webkit-box;
@@ -1211,7 +1211,6 @@ table tr td:last-child {
   .navMob .blockBasket {
     position: absolute;
     z-index: 2;
-    right: calc(50% - 600px);
     top: 45px; }
   .blockBasket .basket {
     display: -webkit-box;
