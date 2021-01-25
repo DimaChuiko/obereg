@@ -18,7 +18,7 @@
         url('AvenirNextCyr-Demi.woff2') format('woff2'),
         url('AvenirNextCyr-Demi.woff') format('woff'),
         url('AvenirNextCyr-Demi.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 500;
 }
 /*    bold     */
 @font-face {
@@ -29,5 +29,5 @@
         url('AvenirNextCyr-Bold.woff2') format('woff2'),
         url('AvenirNextCyr-Bold.woff') format('woff'),
         url('AvenirNextCyr-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 700;
 }

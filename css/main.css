@@ -73,26 +73,38 @@ nav a:hover {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-/*-----------fonts---------*/
+/*-----------fonts--------
 @font-face {
-  font-family: 'AvenirNextCyr';
-  src: url("../fonts/AvenirNextCyr-Regular.eot");
-  src: local("Avenir Next Cyr Regular"), local("AvenirNextCyr-Regular"), url("../fonts/AvenirNextCyr-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Regular.woff2") format("woff2"), url("../fonts/AvenirNextCyr-Regular.woff") format("woff"), url("../fonts/AvenirNextCyr-Regular.ttf") format("truetype");
-  font-weight: normal; }
-
+    font-family: 'AvenirNextCyr';
+    src: url('../fonts/AvenirNextCyr-Regular.eot');
+    src: local('Avenir Next Cyr Regular'), local('AvenirNextCyr-Regular'),
+    url('../fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNextCyr-Regular.woff2') format('woff2'),
+        url('../fonts/AvenirNextCyr-Regular.woff') format('woff'),
+        url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
 @font-face {
-  font-family: 'AvenirNextCyr';
-  src: url("../fonts/AvenirNextCyr-Demi.eot");
-  src: local("Avenir Next Cyr Demi"), local("AvenirNextCyr-Demi"), url("../fonts/AvenirNextCyr-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Demi.woff2") format("woff2"), url("../fonts/AvenirNextCyr-Demi.woff") format("woff"), url("../fonts/AvenirNextCyr-Demi.ttf") format("truetype");
-  font-weight: 500; }
-
+    font-family: 'AvenirNextCyr';
+    src: url('../fonts/AvenirNextCyr-Demi.eot');
+    src: local('Avenir Next Cyr Demi'), local('AvenirNextCyr-Demi'),
+    url('../fonts/AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Demi.woff2') format('woff2'),
+    url('../fonts/AvenirNextCyr-Demi.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+    font-weight: 500;
+}
 @font-face {
-  font-family: 'AvenirNextCyr';
-  src: url("../fonts/AvenirNextCyr-Bold.eot");
-  src: local("Avenir Next Cyr Bold"), local("AvenirNextCyr-Bold"), url("../fonts/AvenirNextCyr-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Bold.woff2") format("woff2"), url("../fonts/AvenirNextCyr-Bold.woff") format("woff"), url("../fonts/AvenirNextCyr-Bold.ttf") format("truetype");
-  font-weight: 700; }
-
-/*--------//fonts--------*/
+    font-family: 'AvenirNextCyr';
+    src: url('../fonts/AvenirNextCyr-Bold.eot');
+    src: local('Avenir Next Cyr Bold'), local('AvenirNextCyr-Bold'),
+    url('../fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Bold.woff2') format('woff2'),
+    url('../fonts/AvenirNextCyr-Bold.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+------//fonts--------*/
 * {
   padding: 0;
   margin: 0;
@@ -203,7 +215,8 @@ button {
   left: 14px; }
 
 nav a {
-  font: normal 1.6rem 'AvenirNextCyr';
+  font: normal 400 1.6rem 'AvenirNextCyr';
+  line-height: 22px;
   color: #FFFFFF; }
 
 .menu-phone .one {
