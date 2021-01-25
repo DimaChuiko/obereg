@@ -1165,7 +1165,8 @@ table tr td:last-child {
   .menu-phone .navMenuUp {
     position: relative;
     left: 0;
-    width: 100%; }
+    width: 100%;
+    height: 50px; }
   ul.listMenu {
     display: -webkit-box;
     display: -ms-flexbox;
