@@ -695,16 +695,13 @@ table tr td:last-child {
   transition: all 1s ease-out; }
 
 .payLink1 .basket {
-  background: url("../img/shopping-cart555_orange.svg") center no-repeat;
   position: absolute;
-  width: 30px;
-  height: 30px;
-  left: 13px;
-  bottom: 10px; }
+  left: 15px;
+  bottom: 5px; }
 
-.article1:hover .basket {
-  background: url("../img/shopping-cart555_white.svg") center no-repeat; }
-
+/*.article1:hover .basket {
+  background: url('../img/shopping-cart555_white.svg') center no-repeat;
+}*/
 .blockPrice .oldSize1 {
   font: normal 1.4rem 'AvenirNextCyr';
   line-height: 15px;
