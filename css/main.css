@@ -2141,7 +2141,12 @@ section .blockViewedProd {
 
 .similarProducts h3,
 .viewedProducts h3 {
-  margin: 50px 0 30px 0; }
+  margin: 50px 0 30px 0;
+  font: normal 2.4rem 'AvenirNextCyr';
+  line-height: 33px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #E5E5E5; }
 
 .blockSimilarProd .article1,
 .blockViewedProd .article1 {
