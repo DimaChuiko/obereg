@@ -8,7 +8,7 @@
     <link type="text/css" rel="stylesheet" href="fonts/fonts.css" media="all">
 </head>
 <body>
-  <div class="wrapper">
+<div class="wrapper">
 <!-- header -->
 <header class="header">
   <div class="gridContainer flex">
@@ -57,7 +57,7 @@
       <a href="#" class="loginLink">Кабинет</a>
     </div>
   </div>
-   <nav class="navCategory">
+  <nav class="navCategory">
     <div class="gridContainer">
      <ul class="listCategory">
        <li class="itemCategory"><a href="crossesAndPendants(1).html">Кресты и кулоны</a></li>
@@ -72,7 +72,7 @@
        <li class="itemCategory"><a href="card_product.html" class="link">SALE</a></li>
      </ul>
    </div>
-   </nav>
+ </nav>
    <nav class="navMenuUp">
       <ul class="listMenu">
         <li class="itemMenu">
@@ -103,7 +103,7 @@
       <a href="#" class="callbackButton linkWhite">CALLBACK</a>
    </div>
 </div>
- </div>
+</div>
 </header>
 <!-- //header -->
 <!--               screenSlider                  -->
@@ -115,8 +115,16 @@
       </div>
       <div class="slider">
         <div>
-          <img class="img1" src="img/image_slide_mobile.jpg" alt="image1.1">
-          <img class="img2" src="img/image_slide1.jpg" alt="image1.2">
+          <picture>
+            <source type="image/webp" srcset="img/image_slide_mobile.webp" />
+            <img class="img1" style="height:440px;" src="img/image_slide_mobile.jpg" alt="Mountains view">
+          </picture>
+          <picture>
+            <source type="image/webp" srcset="img/image_slide1.webp" />
+            <img class="img2" src="img/image_slide1.webp" alt="Mountains view" />
+          </picture>
+          <!--<img class="img1" src="img/image_slide_mobile.jpg" alt="image1.1">
+          <img class="img2" src="img/image_slide1.jpg" alt="image1.2">-->
         </div>
         <div>
           <img class="img1" src="img/image_slide_mobile.jpg" alt="image2.1">
