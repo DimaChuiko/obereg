@@ -167,8 +167,6 @@ button {
 .navMob .blockLogo {
   margin: 20px;
   position: absolute;
-  width: 206px;
-  height: 60px;
   left: calc(50% - 123px); }
 
 .navMob .blockBasket {
@@ -299,6 +297,23 @@ nav a {
   height: 30px;
   background: url("../img/magnifying_glass 1.svg") right no-repeat;
   background-size: 70%; }
+
+/*---------- navCategory destop -----------*/
+.wrapper .navCategoryDestop {
+  display: none;
+  background: #F4A876;
+  width: 100%;
+  bottom: 0;
+  position: absolute; }
+
+.navCategoryDestop a {
+  padding: 15px 10px;
+  font: normal 1.6rem 'AvenirNextCyr';
+  line-height: 22px;
+  color: #FFFFFF; }
+
+.navCategoryDestop a:hover {
+  color: #C6713A; }
 
 /*--------------- screenSlider ----------------*/
 .wrapper .screenSlider {
@@ -1221,7 +1236,11 @@ table tr td:last-child {
   .basket .basketMoney {
     display: block; }
   .flex11 .blockText3 {
-    padding: 0 50px; } }
+    padding: 0 50px; }
+  .menu-phone .navCategory {
+    display: none; }
+  .wrapper .navCategoryDestop {
+    display: block; } }
 
 /* Slider */
 .slick-slider {
