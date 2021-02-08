@@ -31,7 +31,9 @@ nav a:hover {
   font-size: 24px;
   z-index: 4; }
 
-.menu-btn-line, .menu-btn-line::before, .menu-btn-line::after {
+.menu-btn-line,
+.menu-btn-line::before,
+.menu-btn-line::after {
   position: absolute;
   left: 0;
   width: 30px;
@@ -48,7 +50,8 @@ nav a:hover {
 .menu-btn-line-active::after {
   width: 30px; }
 
-.menu-btn-line::before, .menu-btn-line::after {
+.menu-btn-line::before,
+.menu-btn-line::after {
   content: '';
   display: block;
   -webkit-transition: 0.5s;
@@ -73,38 +76,6 @@ nav a:hover {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-/*-----------fonts--------
-@font-face {
-    font-family: 'AvenirNextCyr';
-    src: url('../fonts/AvenirNextCyr-Regular.eot');
-    src: local('Avenir Next Cyr Regular'), local('AvenirNextCyr-Regular'),
-    url('../fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AvenirNextCyr-Regular.woff2') format('woff2'),
-        url('../fonts/AvenirNextCyr-Regular.woff') format('woff'),
-        url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'AvenirNextCyr';
-    src: url('../fonts/AvenirNextCyr-Demi.eot');
-    src: local('Avenir Next Cyr Demi'), local('AvenirNextCyr-Demi'),
-    url('../fonts/AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirNextCyr-Demi.woff2') format('woff2'),
-    url('../fonts/AvenirNextCyr-Demi.woff') format('woff'),
-    url('../fonts/AvenirNextCyr-Demi.ttf') format('truetype');
-    font-weight: 500;
-}
-@font-face {
-    font-family: 'AvenirNextCyr';
-    src: url('../fonts/AvenirNextCyr-Bold.eot');
-    src: local('Avenir Next Cyr Bold'), local('AvenirNextCyr-Bold'),
-    url('../fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirNextCyr-Bold.woff2') format('woff2'),
-    url('../fonts/AvenirNextCyr-Bold.woff') format('woff'),
-    url('../fonts/AvenirNextCyr-Bold.ttf') format('truetype');
-    font-weight: 700;
-}
-------//fonts--------*/
 * {
   padding: 0;
   margin: 0;
