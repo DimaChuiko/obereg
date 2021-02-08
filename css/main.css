@@ -600,7 +600,8 @@ table tr td:last-child {
   background: url("../img/ornament.webp") center no-repeat;
   width: 132px;
   height: 9px;
-  left: calc(50% - 66px); }
+  left: calc(50% - 66px);
+  bottom: -20px; }
 
 /*           скрывающаяся таблица для популярных товаров            */
 .textProd1 table {
@@ -1335,9 +1336,6 @@ $slick-next-character: "\2192" !default;*/
 /*$slick-dot-character: "\2022" !default;
 $slick-dot-size: 6px !default;*/
 /* Slider */
-.slick-loading .slick-list {
-  background: #fff url("./ajax-loader.gif") center center no-repeat; }
-
 /* Icons
 @if $slick-font-family=="slick" {
     @font-face {
@@ -1409,6 +1407,12 @@ $slick-dot-size: 6px !default;*/
     content: ""; }
     [dir="rtl"] .slick-next:before {
       content: ""; }
+
+.slider .slick-prev,
+.slider .slick-next {
+  width: 30px;
+  height: 30px;
+  bottom: -70px; }
 
 .slider1 .slick-prev,
 .slider1 .slick-next {
