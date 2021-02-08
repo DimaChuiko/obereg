@@ -89,7 +89,9 @@ nav a:hover {
 html {
   font-size: 62.5%; }
 
-header, main, footer {
+header,
+main,
+footer {
   width: 100%;
   height: auto;
   position: relative; }
@@ -249,7 +251,8 @@ nav a {
   line-height: 22px;
   color: #F4A876; }
 
-.linkWhite, .callback {
+.linkWhite,
+.callback {
   margin: 15px; }
 
 .menu-phone .blockCallback {
@@ -258,7 +261,8 @@ nav a {
   display: flex;
   background-color: #ffffff; }
 
-.blockMonLang form, .loginLink {
+.blockMonLang form,
+.loginLink {
   font: normal 1.4rem 'AvenirNextCyr';
   line-height: 19px;
   color: #F4A876; }
@@ -546,10 +550,10 @@ table tr td:last-child {
   margin: 10px; }
 
 .article1 .labelSale {
-  background: url("../img/labelSale_icon.png") center no-repeat; }
+  background: url("../img/labelSale_icon.webp") center no-repeat; }
 
 .article1 .labelNew {
-  background: url("../img/labelNew_icon.png") center no-repeat; }
+  background: url("../img/labelNew_icon.webp") center no-repeat; }
 
 .flex2 .slider2 {
   height: 450px;
@@ -578,7 +582,7 @@ table tr td:last-child {
   position: absolute;
   display: block;
   content: '';
-  background: url("../img/ornament.png") center no-repeat;
+  background: url("../img/ornament.webp") center no-repeat;
   width: 132px;
   height: 9px;
   left: calc(50% - 66px); }
@@ -671,9 +675,6 @@ table tr td:last-child {
   left: 15px;
   bottom: 5px; }
 
-/*.article1:hover .basket {
-  background: url('../img/shopping-cart555_white.svg') center no-repeat;
-}*/
 .blockPrice .oldSize1 {
   font: normal 1.4rem 'AvenirNextCyr';
   line-height: 15px;
@@ -711,12 +712,12 @@ table tr td:last-child {
   height: 32px; }
 
 .slider5 .slick-prev {
-  background: url("../img/arrow_slider5_left.png") center no-repeat;
+  background: url("../img/arrow_slider5_left.webp") center no-repeat;
   top: calc(50% - 16px);
   left: 20px; }
 
 .slider5 .slick-next {
-  background: url("../img/arrow_slider5_right.png") center no-repeat;
+  background: url("../img/arrow_slider5_right.webp") center no-repeat;
   bottom: calc(50% - 16px);
   right: 20px; }
 
@@ -727,7 +728,7 @@ table tr td:last-child {
 /*----------------------- //popularProduct ----------------------*/
 /*--------------- about -------------*/
 .wrapper .about {
-  background: linear-gradient(242.85deg, #FFFFFF 18.39%, rgba(255, 255, 255, 0) 57.47%), url("../img/back_popular.jpg") top no-repeat;
+  background: linear-gradient(242.85deg, #FFFFFF 18.39%, rgba(255, 255, 255, 0) 57.47%), url("../img/back_popular.webp") top no-repeat;
   background-size: 100% 217px; }
 
 .flex3 .blockText2 {
@@ -954,7 +955,7 @@ table tr td:last-child {
   content: '';
   display: block;
   height: 32px;
-  background: url("../img/inst_hover.png") center no-repeat; }
+  background: url("../img/inst_hover.webp") center no-repeat; }
 
 .foto:hover .goOver {
   bottom: calc(50% - 27.5px); }
@@ -1015,14 +1016,14 @@ table tr td:last-child {
   height: 25px; }
 
 .sociatyLink .whatsappLink {
-  background: url("../img/Whatsapp.png") center no-repeat; }
+  background: url("../img/Whatsapp.webp") center no-repeat; }
 
 .sociatyLink .instagramLink {
   margin: 0 30px;
-  background: url("../img/instagram.png") center no-repeat; }
+  background: url("../img/instagram.webp") center no-repeat; }
 
 .sociatyLink .facebookLink {
-  background: url("../img/facebook.png") center no-repeat; }
+  background: url("../img/facebook.webp") center no-repeat; }
 
 /*-------------------------- //foooter -------------------------*/
 @media screen and (min-width: 375px) {
@@ -1104,6 +1105,8 @@ table tr td:last-child {
     height: 850px; }
   .blockLogoFoot .logoFoot::after {
     top: 50px; }
+  .wrapper .about {
+    background-position: center; }
   .footer .flex7 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1113,9 +1116,10 @@ table tr td:last-child {
     align-items: center; }
   .flex7 .navDown {
     width: 70%;
-    margin: 0 auto; }
+    height: 50px;
+    margin: 15px auto; }
   .flex7 .sociatyLink {
-    margin: 0 auto; }
+    margin: 15px auto; }
   .menu-phone {
     position: relative;
     display: -webkit-box;
@@ -1315,14 +1319,16 @@ $slick-dot-size: 6px !default;*/
 .slick-loading .slick-list {
   background: #fff url("./ajax-loader.gif") center center no-repeat; }
 
-/* Icons */
-@font-face {
-  font-family: "slick";
-  src: url("./fonts/slick.eot");
-  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
+/* Icons
+@if $slick-font-family=="slick" {
+    @font-face {
+        font-family: "slick";
+        src: slick-font-url("slick.eot");
+        src: slick-font-url("slick.eot?#iefix") format("embedded-opentype"), slick-font-url("slick.woff") format("woff"), slick-font-url("slick.ttf") format("truetype"), slick-font-url("slick.svg#slick") format("svg");
+        font-weight: normal;
+        font-style: normal;
+    }
+} */
 /* Arrows */
 .slick-prev,
 .slick-next {
