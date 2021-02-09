@@ -1444,16 +1444,23 @@ $slick-dot-size: 6px !default;*/
 @media screen and (min-width: 1360px) {
   .slider .slick-prev,
   .slider .slick-next {
-    width: 40px;
-    height: 59px;
-    bottom: 50%;
-    background-color: none; }
-  .slider .slick-prev {
-    background: url("../img/arrow_left_slide.svg") center no-repeat;
-    left: 240px; }
-  .slider .slick-next {
-    background: url("../img/arrow_right_slide.svg") center no-repeat;
-    right: 240px; } }
+    display: block; } }
+
+.screenSlider .slider .slick-prev,
+.screenSlider .slider .slick-next {
+  width: 40px;
+  height: 59px;
+  bottom: 50%;
+  background-color: none;
+  display: none; }
+
+.slider .slick-prev {
+  background: url("../img/arrow_left_slide.svg") center no-repeat;
+  left: 200px; }
+
+.slider .slick-next {
+  background: url("../img/arrow_right_slide.svg") center no-repeat;
+  right: 200px; }
 
 .slider1 .slick-prev,
 .slider1 .slick-next {

@@ -1,7 +1,13 @@
 $(document).ready(function() {
     $('.slider').slick({
         arrows: true,
-        dots: false
+        dots: false,
+        responsive: [{
+            breakpoint: 1360,
+            settings: {
+                arrows: false
+            }
+        }]
     });
     $('.slider1').slick({
         dots: false
