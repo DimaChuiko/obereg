@@ -110,7 +110,7 @@ button {
   left: 14px; }
 
 nav a {
-  font: normal 400 1.6rem 'AvenirNextCyr';
+  font: normal 1.6rem 'AvenirNextCyr';
   line-height: 22px;
   color: #FFFFFF; }
 
@@ -488,10 +488,10 @@ table tr td:last-child {
   margin: 10px; }
 
 .article1 .labelSale {
-  background: url("../img/labelSale_icon.webp") center no-repeat; }
+  background: url("../img/labelSale_icon.png") center no-repeat; }
 
 .article1 .labelNew {
-  background: url("../img/labelNew_icon.webp") center no-repeat; }
+  background: url("../img/labelNew_icon.png") center no-repeat; }
 
 .flex2 .slider2 {
   height: 450px;
@@ -520,7 +520,7 @@ table tr td:last-child {
   position: absolute;
   display: block;
   content: '';
-  background: url("../img/ornament.webp") center no-repeat;
+  background: url("../img/ornament.png") center no-repeat;
   width: 132px;
   height: 9px;
   left: calc(50% - 66px);
@@ -651,12 +651,12 @@ table tr td:last-child {
   height: 32px; }
 
 .slider5 .slick-prev {
-  background: url("../img/arrow_slider5_left.webp") center no-repeat;
+  background: url("../img/arrow_slider5_left.png") center no-repeat;
   top: calc(50% - 16px);
   left: 20px; }
 
 .slider5 .slick-next {
-  background: url("../img/arrow_slider5_right.webp") center no-repeat;
+  background: url("../img/arrow_slider5_right.png") center no-repeat;
   bottom: calc(50% - 16px);
   right: 20px; }
 
