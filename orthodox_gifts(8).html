@@ -1,777 +1,812 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-  <title>obereg</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link type="text/css" rel="stylesheet" href="fonts/fonts.css" media="all">
-  <link rel="stylesheet" href="css/main.min.css" type="text/css" media="all">
+    <title>obereg</title>
+    <meta charset="utf-8" />
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="main page">
+    <link type="text/css" rel="stylesheet" href="css/main.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="fonts/fonts.css" media="all">
 </head>
+
 <body>
-  <!-- wrapper -->
-<div class="wrapper">
-    <!-- header -->
-    <header class="header">
-      <div class="gridContainer flex">
-        <div class="navMob">
-          <button id="menu-open-btn" class="menu-open-btn">
-           <span id="menu-btn-line" class="menu-btn-line"></span>
-         </button>
-         <div class="blockLogo">
-          <a class="logoHead" href="index.html">
-            <img src="img/logo_head.svg" alt="img">
-          </a>
-        </div>
-        <div class="blockBasket">
-          <a href="#" class="basket">
-            <span class="basketMeter">2</span>
-            <img src="img/shopping-cart111.svg" alt="img">
-            <p class="basketMoney">1 232 $</p>
-          </a>
-        </div>
-      </div>
-      <!--               menu-phone                 -->
-      <div id="menu-phone" class="menu-phone">
-        <div class="one">
-          <div class="blockSearch">
-            <form class="formSearch" method="GET">
-              <input class="noHover" type="search" name="search" placeholder="Код или название товара">
-              <input type="submit" name="submit">
-            </form>
-          </div>
-          <div class="blockMonLang">
-            <form class="formLang" method="GET">
-              <select class="colorOrange" name="language" id="language">
-                <option selected>RU</option>
-                <option>UA</option>
-                <option>EN</option>
-              </select>
-            </form>
-            <form class="formMoney" method="GET">
-              <select class="colorOrange" name="money" id="money">
-                <option selected>₴</option>
-                <option>€</option>
-                <option>$</option>
-              </select>
-            </form>
-            <a href="#" class="loginLink">Кабинет</a>
-            <!-- modal, form, login -->
-          </div>
-        </div>
-        <nav class="navCategory">
-          <div class="gridContainer">
-           <ul class="listCategory">
-             <li class="itemCategory"><a href="crossesAndPendants(1).html">Кресты и кулоны</a></li>
-             <li class="itemCategory"><a href="beads(2).html">Бусины (шармы)</a></li>
-             <li class="itemCategory"><a href="bracelets(3).html">Браслеты</a></li>
-             <li class="itemCategory"><a href="rings(4).html">Кольца</a></li>
-             <li class="itemCategory"><a href="earrings(5).html">Серьги</a></li>
-             <li class="itemCategory"><a href="lacesAndChains(6).html">Шнурки и цепи</a></li>
-             <li class="itemCategory"><a href="holyNames(7).html">Святые имена</a></li>
-             <li class="itemCategory"><a href="orthodox_gifts(8).html">Православные подарки</a></li>
-             <li class="itemCategory"><a href="forClergy(9).html">Для священнослужителей</a></li>
-             <li class="itemCategory"><a href="#" class="link">SALE</a></li>
-           </ul>
-         </div>
-       </nav>
-       <nav class="navMenuUp">
-        <ul class="listMenu">
-          <li class="itemMenu"><a href="aboutUs.html">О нас</a></li>
-          <li class="itemMenu"><a href="">Сотрудничество</a></li>
-          <li class="itemMenu"><a href="">Контакты</a></li>
-          <li class="itemMenu"><a href="delivery.html">Оплата и доставка</a></li>
-          <li class="itemMenu"><a href="guarantee.html">Гарантии и возврат</a></li>
-          <li class="itemMenu"><a href="blog.html">Блог</a></li>
-        </ul>
-      </nav>
-      <div class="blockCallback">
-        <div class="callback">
-          <p class="number">+38(099)170-92-30</p>
-          <p class="number">+38(099)170-92-30</p>
-        </div>
-        <a href="#" class="callbackButton linkWhite">CALLBACK</a>
-      </div>
-    </div>
-  </div>
-</header>
-<!-- //header -->
-<div class="bread">
-  <div class="gridContainer">
-    <ul class="breadcrumb" id="navigation">
-      <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-        <a href="/" title="Главная" itemprop="url">
-          <span itemprop="title">Главная</span>
-        </a>
-      </li>
-      <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-        <a href="/catalog/" title="Каталог" itemprop="url">
-          <span itemprop="title">Каталог</span>
-        </a>
-      </li>
-      <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" class="active">
-        <a href="/catalog/fasad/" title="Фасадные системы" itemprop="url" style="display:none;">
-        <span itemprop="title">Православные подарки</span>
-      </a>
-      </li>
-    </ul>
-  </div>
-</div>
-<div class="rowContainer gridContainer">
-  <aside class="sidebar">
-    <div class="sideMenu">
-      <h3>ПРАВОСЛАВНЫЕ ПОДАРКИ</h3>
-      <ul class="listSubCat">
-        <li class="itemSubCat">
-          <i class="lineActCat"></i>
-          <a href="" class="linkSubCat">Иконы</a>
-        </li>
-        <li class="itemSubCat">
-          <i class="lineActCat"></i>
-          <a href="" class="linkSubCat">Складни с молитвами</a>
-        </li>
-        <li class="itemSubCat">
-          <i class="lineActCat"></i>
-          <a href="" class="linkSubCat">Подсвечники</a>
-        </li>
-        <li class="itemSubCat">
-          <i class="lineActCat"></i>
-          <a href="" class="linkSubCat">Таблички с молитвами</a>
-        </li>
-        <li class="itemSubCat">
-          <i class="lineActCat"></i>
-          <a href="" class="linkSubCat">Ключницы</a>
-        </li>
-        <li class="itemSubCat">
-          <i class="lineActCat"></i>
-          <a href="" class="linkSubCat">Часы</a>
-        </li>
-        <li class="itemSubCat">
-          <i class="lineActCat"></i>
-          <a href="" class="linkSubCat">Ангелочки</a>
-        </li>
-      </ul>
-    </div>
-    <div class="sidearea">
-      <h3><i class="iconFiltr"></i>ФИЛЬТРЫ<i class="iconArrow"></i></h3>
-      <div class="blockFiltr"></div>
-    </div>
-  </aside>
-  <main class="mainContent">
-    <section class="banner">
-      <div class="blockText4">
-        <h1>ИКОНЫ</h1>
-        <p>Мы даем возможность обменять ювелирные изделия надлежащего качества на другие изделия в течении 14 календарных дней с момента продажи, если изделие не подошло по размеру, цвету или другим весомым характеристикам, за исключением случаев</p>
-      </div>
-    </section>
-    <div class="blockSortProd">
-      <select class="select" name="selectSort" id="sort">
-        <option selected value="">по популярности</option>
-        <option value="">цена вверх</option>
-        <option value="">цена вниз</option>
-        <option value="">новые поступления</option>
-        <option value="">скидка вниз</option>
-      </select>
-    </div>
-    <div class="blockProduct">
-      <article class="article1">
-        <div class="labelNew"></div>
-        <div class="slider5">
-          <div class="imgProd1">
-            <img src="img/cross_2.1.jpg" alt="image1">
-          </div>
-          <div class="imgProd1">
-            <img src="img/cross_2.2.jpg" alt="image2">
-          </div>
-          <div class="imgProd1">
-            <img src="img/cross_2.3.jpg" alt="image3">
-          </div>
-        </div>
-        <div class="textProd1">
-          <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн...</a></h4>
-          <p class="maybeProd">
-            <i class="maybe"></i>Под заказ (1-2 недели)</p>
-            <div class="blockPay1">
-              <div class="blockPrice">
-                <p class="oldSize1">10 000 ₴</p>
-                <p class="size1">8 500 ₴</p>
-              </div>
-              <a href="#" class="payLink1">
-                <i class="basket">
-                  <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0)">
-                      <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876"/>
-                      <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876"/>
-                      <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876"/>
-                    </g>
-                    <defs>
-                      <clipPath id="clip0">
-                        <path d="M0 0H31V31H0V0Z" fill="white"/>
-                      </clipPath>
-                    </defs>
-                  </svg></i>КУПИТЬ</a>
-              </div>
-              <table>
-                <tr>
-                  <td>Производитель:</td>
-                  <td class="producer">КрестИнвест</td>
-                </tr>
-                <tr>
-                  <td>Материал:</td>
-                  <td>Серебро 930</td>
-                </tr>
-                <tr>
-                  <td>Вес:</td>
-                  <td>121 г.</td>
-                </tr>
-                <tr>
-                  <td>Код товара:</td>
-                  <td>1233454</td>
-                </tr>
-              </table>
-            </div>
-          </article>
-          <article class="article1">
-            <div class="labelNew"></div>
-            <div class="slider5">
-              <div class="imgProd1">
-                <img src="img/cross_2.1.jpg" alt="image1">
-              </div>
-              <div class="imgProd1">
-                <img src="img/cross_2.2.jpg" alt="image2">
-              </div>
-              <div class="imgProd1">
-                <img src="img/cross_2.3.jpg" alt="image3">
-              </div>
-            </div>
-            <div class="textProd1">
-              <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
-              <a class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</a>
-              <div class="blockPay1">
-                <div class="blockSize">
-                  <p class="oldSize1">10 000 ₴</p>
-                  <p class="size1">8 500 ₴</p>
-                </div>
-                <a href="#" class="payLink1">
-                  <i class="basket">
-                    <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0)">
-                        <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876"/>
-                        <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876"/>
-                        <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876"/>
-                      </g>
-                      <defs>
-                        <clipPath id="clip0">
-                          <path d="M0 0H31V31H0V0Z" fill="white"/>
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </i>КУПИТЬ
-                  </a>
-                </div>
-                <table>
-                  <tr>
-                    <td>Производитель:</td>
-                    <td class="producer">КрестИнвест</td>
-                  </tr>
-                  <tr>
-                    <td>Материал:</td>
-                    <td>Серебро 930</td>
-                  </tr>
-                  <tr>
-                    <td>Вес:</td>
-                    <td>121 г.</td>
-                  </tr>
-                  <tr>
-                    <td>Код товара:</td>
-                    <td>1233454</td>
-                  </tr>
-                </table>
-              </div>
-            </article>
-            <article class="article1">
-              <div class="labelNew"></div>
-              <div class="slider5">
-                <div class="imgProd1">
-                  <img src="img/cross_2.1.jpg" alt="image1">
-                </div>
-                <div class="imgProd1">
-                  <img src="img/cross_2.2.jpg" alt="image2">
-                </div>
-                <div class="imgProd1">
-                  <img src="img/cross_2.3.jpg" alt="image3">
-                </div>
-              </div>
-              <div class="textProd1">
-                <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
-                <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
-                <div class="blockPay1">
-                  <div class="blockSize">
-                    <p class="oldSize1">10 000 ₴</p>
-                    <p class="size1">8 500 ₴</p>
-                  </div>
-                  <a href="#" class="payLink1">
-                    <i class="basket">
-                      <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0)">
-                          <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876"/>
-                          <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876"/>
-                          <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876"/>
-                        </g>
-                        <defs>
-                          <clipPath id="clip0">
-                            <path d="M0 0H31V31H0V0Z" fill="white"/>
-                          </clipPath>
-                        </defs>
-                      </svg>
-                    </i>КУПИТЬ
-                    </a>
-                  </div>
-                  <table>
-                    <tr>
-                      <td>Производитель:</td>
-                      <td class="producer">КрестИнвест</td>
-                    </tr>
-                    <tr>
-                      <td>Материал:</td>
-                      <td>Серебро 930</td>
-                    </tr>
-                    <tr>
-                      <td>Вес:</td>
-                      <td>121 г.</td>
-                    </tr>
-                    <tr>
-                      <td>Код товара:</td>
-                      <td>1233454</td>
-                    </tr>
-                  </table>
-                </div>
-              </article>
-              <article class="article1">
-                <div class="labelNew"></div>
-                <div class="slider5">
-                  <div class="imgProd1">
-                    <img src="img/cross_2.1.jpg" alt="image1">
-                  </div>
-                  <div class="imgProd1">
-                    <img src="img/cross_2.2.jpg" alt="image2">
-                  </div>
-                  <div class="imgProd1">
-                    <img src="img/cross_2.3.jpg" alt="image3">
-                  </div>
-                </div>
-                <div class="textProd1">
-                  <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
-                  <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
-                  <div class="blockPay1">
-                    <div class="blockSize">
-                      <p class="oldSize1">10 000 ₴</p>
-                      <p class="size1">8 500 ₴</p>
-                    </div>
-                    <a href="#" class="payLink1">
-                      <i class="basket">
-                        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0)">
-                            <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876"/>
-                            <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876"/>
-                            <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876"/>
-                          </g>
-                          <defs>
-                            <clipPath id="clip0">
-                              <path d="M0 0H31V31H0V0Z" fill="white"/>
-                            </clipPath>
-                          </defs>
-                        </svg>
-                      </i>КУПИТЬ
-                      </a>
-                    </div>
-                    <table>
-                      <tr>
-                        <td>Производитель:</td>
-                        <td class="producer">КрестИнвест</td>
-                      </tr>
-                      <tr>
-                        <td>Материал:</td>
-                        <td>Серебро 930</td>
-                      </tr>
-                      <tr>
-                        <td>Вес:</td>
-                        <td>121 г.</td>
-                      </tr>
-                      <tr>
-                        <td>Код товара:</td>
-                        <td>1233454</td>
-                      </tr>
-                    </table>
-                  </div>
-                </article>
-                <article class="article1">
-                  <div class="labelNew"></div>
-                  <div class="slider5">
-                    <div class="imgProd1">
-                      <img src="img/cross_2.1.jpg" alt="image1">
-                    </div>
-                    <div class="imgProd1">
-                      <img src="img/cross_2.2.jpg" alt="image2">
-                    </div>
-                    <div class="imgProd1">
-                      <img src="img/cross_2.3.jpg" alt="image3">
-                    </div>
-                  </div>
-                  <div class="textProd1">
-                    <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
-                    <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
-                    <div class="blockPay1">
-                      <div class="blockSize">
-                        <p class="oldSize1">10 000 ₴</p>
-                        <p class="size1">8 500 ₴</p>
-                      </div>
-                      <a href="#" class="payLink1">
-                        <i class="basket">
-                          <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0)">
-                              <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876"/>
-                              <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876"/>
-                              <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876"/>
-                            </g>
-                            <defs>
-                              <clipPath id="clip0">
-                                <path d="M0 0H31V31H0V0Z" fill="white"/>
-                              </clipPath>
-                            </defs>
-                          </svg>
-                        </i>КУПИТЬ
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- header -->
+        <header class="header">
+            <div class="gridContainer flex">
+                <div class="navMob">
+                    <button id="menu-open-btn" class="menu-open-btn">
+                        <span id="menu-btn-line" class="menu-btn-line"></span>
+                    </button>
+                    <div class="blockLogo">
+                        <a class="logoHead" href="index.html">
+                            <img src="img/logo_head.svg" alt="img">
                         </a>
-                      </div>
-                      <table>
-                        <tr>
-                          <td>Производитель:</td>
-                          <td class="producer">КрестИнвест</td>
-                        </tr>
-                        <tr>
-                          <td>Материал:</td>
-                          <td>Серебро 930</td>
-                        </tr>
-                        <tr>
-                          <td>Вес:</td>
-                          <td>121 г.</td>
-                        </tr>
-                        <tr>
-                          <td>Код товара:</td>
-                          <td>1233454</td>
-                        </tr>
-                      </table>
                     </div>
-                  </article>
-                  <article class="article1">
-                    <div class="labelNew"></div>
-                    <div class="slider5">
-                      <div class="imgProd1">
-                        <img src="img/cross_2.1.jpg" alt="image1">
-                      </div>
-                      <div class="imgProd1">
-                        <img src="img/cross_2.2.jpg" alt="image2">
-                      </div>
-                      <div class="imgProd1">
-                        <img src="img/cross_2.3.jpg" alt="image3">
-                      </div>
+                    <div class="blockBasket">
+                        <a href="#" class="basket">
+                            <span class="basketMeter">2</span>
+                            <img src="img/shopping-cart111.svg" alt="img">
+                            <p class="basketMoney">1 232 $</p>
+                        </a>
                     </div>
-                    <div class="textProd1">
-                      <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
-                      <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
-                      <div class="blockPay1">
-                        <div class="blockSize">
-                          <p class="oldSize1">10 000 ₴</p>
-                          <p class="size1">8 500 ₴</p>
+                </div>
+                <!--               menu-phone                 -->
+                <div id="menu-phone" class="menu-phone">
+                    <div class="one">
+                        <div class="blockSearch">
+                            <form class="formSearch" method="GET">
+                                <input class="noHover" type="search" name="search" placeholder="Код или название товара">
+                                <input type="submit" name="submit">
+                            </form>
                         </div>
-                        <a href="#" class="payLink1">
-                          <i class="basket">
-                            <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0)">
-                                <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876"/>
-                                <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876"/>
-                                <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876"/>
-                              </g>
-                              <defs>
-                                <clipPath id="clip0">
-                                  <path d="M0 0H31V31H0V0Z" fill="white"/>
-                                </clipPath>
-                              </defs>
-                            </svg>
-                          </i>КУПИТЬ
-                          </a>
+                        <div class="blockMonLang">
+                            <form class="formLang" method="GET">
+                                <select class="colorOrange" name="language" id="language">
+                                    <option selected>RU</option>
+                                    <option>UA</option>
+                                    <option>EN</option>
+                                </select>
+                            </form>
+                            <form class="formMoney" method="GET">
+                                <select class="colorOrange" name="money" id="money">
+                                    <option selected>₴</option>
+                                    <option>€</option>
+                                    <option>$</option>
+                                </select>
+                            </form>
+                            <a href="#" class="loginLink">Кабинет</a>
+                            <!-- modal, form, login -->
                         </div>
-                        <table>
-                          <tr>
-                            <td>Производитель:</td>
-                            <td class="producer">КрестИнвест</td>
-                          </tr>
-                          <tr>
-                            <td>Материал:</td>
-                            <td>Серебро 930</td>
-                          </tr>
-                          <tr>
-                            <td>Вес:</td>
-                            <td>121 г.</td>
-                          </tr>
-                          <tr>
-                            <td>Код товара:</td>
-                            <td>1233454</td>
-                          </tr>
-                        </table>
-                      </div>
-                    </article>
+                    </div>
+                    <nav class="navCategory">
+                        <div class="gridContainer">
+                            <ul class="listCategory">
+                                <li class="itemCategory"><a href="crossesAndPendants(1).html">Кресты и кулоны</a></li>
+                                <li class="itemCategory"><a href="beads(2).html">Бусины (шармы)</a></li>
+                                <li class="itemCategory"><a href="bracelets(3).html">Браслеты</a></li>
+                                <li class="itemCategory"><a href="rings(4).html">Кольца</a></li>
+                                <li class="itemCategory"><a href="earrings(5).html">Серьги</a></li>
+                                <li class="itemCategory"><a href="lacesAndChains(6).html">Шнурки и цепи</a></li>
+                                <li class="itemCategory"><a href="holyNames(7).html">Святые имена</a></li>
+                                <li class="itemCategory"><a href="orthodox_gifts(8).html">Православные подарки</a></li>
+                                <li class="itemCategory"><a href="forClergy(9).html">Для священнослужителей</a></li>
+                                <li class="itemCategory"><a href="#" class="link">SALE</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <nav class="navMenuUp">
+                        <ul class="listMenu">
+                            <li class="itemMenu"><a href="aboutUs.html">О нас</a></li>
+                            <li class="itemMenu"><a href="">Сотрудничество</a></li>
+                            <li class="itemMenu"><a href="">Контакты</a></li>
+                            <li class="itemMenu"><a href="delivery.html">Оплата и доставка</a></li>
+                            <li class="itemMenu"><a href="guarantee.html">Гарантии и возврат</a></li>
+                            <li class="itemMenu"><a href="blog.html">Блог</a></li>
+                        </ul>
+                    </nav>
+                    <div class="blockCallback">
+                        <div class="callback">
+                            <p class="number">+38(099)170-92-30</p>
+                            <p class="number">+38(099)170-92-30</p>
+                        </div>
+                        <a href="#" class="callbackButton linkWhite">CALLBACK</a>
+                    </div>
+                </div>
+            </div>
+            <!--navCategory destop-->
+            <div class="navCategoryDestop">
+                <div class="gridContainer">
+                    <nav class="navCategory">
+                        <ul class="listCategory">
+                            <li class="itemCategory">
+                                <a href="crossesAndPendants(1).html">КРЕСТЫ И КУЛОНЫ</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="beads(2).html">Бусины (шармы)</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="bracelets(3).html">Браслеты</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="rings(4).html">Кольца</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="earrings(5).html">Серьги</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="lacesAndChains(6).html">Шнурки и цепи</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="holyNames(7).html">Святые имена</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="orthodox_gifts(8).html">Православные подарки</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="forClergy(9).html">Для священнослужителей</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="card_product.html" class="link">SALE</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!--//navCategory destop-->
+        </header>
+        <!-- //header -->
+        <div class="bread">
+            <div class="gridContainer">
+                <ul class="breadcrumb" id="navigation">
+                    <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                        <a href="/" title="Главная" itemprop="url">
+                            <span itemprop="title">Главная</span>
+                        </a>
+                    </li>
+                    <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                        <a href="/catalog/" title="Каталог" itemprop="url">
+                            <span itemprop="title">Каталог</span>
+                        </a>
+                    </li>
+                    <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" class="active">
+                        <a href="/catalog/fasad/" title="Фасадные системы" itemprop="url" style="display:none;">
+                            <span itemprop="title">Православные подарки</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="rowContainer gridContainer">
+            <aside class="sidebar">
+                <div class="sideMenu">
+                    <h3>ПРАВОСЛАВНЫЕ ПОДАРКИ</h3>
+                    <ul class="listSubCat">
+                        <li class="itemSubCat">
+                            <i class="lineActCat"></i>
+                            <a href="" class="linkSubCat">Иконы</a>
+                        </li>
+                        <li class="itemSubCat">
+                            <i class="lineActCat"></i>
+                            <a href="" class="linkSubCat">Складни с молитвами</a>
+                        </li>
+                        <li class="itemSubCat">
+                            <i class="lineActCat"></i>
+                            <a href="" class="linkSubCat">Подсвечники</a>
+                        </li>
+                        <li class="itemSubCat">
+                            <i class="lineActCat"></i>
+                            <a href="" class="linkSubCat">Таблички с молитвами</a>
+                        </li>
+                        <li class="itemSubCat">
+                            <i class="lineActCat"></i>
+                            <a href="" class="linkSubCat">Ключницы</a>
+                        </li>
+                        <li class="itemSubCat">
+                            <i class="lineActCat"></i>
+                            <a href="" class="linkSubCat">Часы</a>
+                        </li>
+                        <li class="itemSubCat">
+                            <i class="lineActCat"></i>
+                            <a href="" class="linkSubCat">Ангелочки</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidearea">
+                    <h3><i class="iconFiltr"></i>ФИЛЬТРЫ<i class="iconArrow"></i></h3>
+                    <div class="blockFiltr"></div>
+                </div>
+            </aside>
+            <main class="mainContent">
+                <section class="banner">
+                    <div class="blockText4">
+                        <h1>ИКОНЫ</h1>
+                        <p>Мы даем возможность обменять ювелирные изделия надлежащего качества на другие изделия в течении 14 календарных дней с момента продажи, если изделие не подошло по размеру, цвету или другим весомым характеристикам, за исключением случаев</p>
+                    </div>
+                </section>
+                <div class="blockSortProd">
+                    <select class="select" name="selectSort" id="sort">
+                        <option selected value="">по популярности</option>
+                        <option value="">цена вверх</option>
+                        <option value="">цена вниз</option>
+                        <option value="">новые поступления</option>
+                        <option value="">скидка вниз</option>
+                    </select>
+                </div>
+                <div class="blockProduct">
                     <article class="article1">
-                      <div class="labelNew"></div>
-                      <div class="slider5">
-                        <div class="imgProd1">
-                          <img src="img/cross_2.1.jpg" alt="image1">
-                        </div>
-                        <div class="imgProd1">
-                          <img src="img/cross_2.2.jpg" alt="image2">
-                        </div>
-                        <div class="imgProd1">
-                          <img src="img/cross_2.3.jpg" alt="image3">
-                        </div>
-                      </div>
-                      <div class="textProd1">
-                        <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
-                        <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
-                        <div class="blockPay1">
-                          <div class="blockSize">
-                            <p class="oldSize1">10 000 ₴</p>
-                            <p class="size1">8 500 ₴</p>
-                          </div>
-                          <a href="#" class="payLink1">
-                            <i class="basket">
-                              <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0)">
-                                  <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876"/>
-                                  <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876"/>
-                                  <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876"/>
-                                </g>
-                                <defs>
-                                  <clipPath id="clip0">
-                                    <path d="M0 0H31V31H0V0Z" fill="white"/>
-                                  </clipPath>
-                                </defs>
-                              </svg>
-                            </i>КУПИТЬ
-                            </a>
-                          </div>
-                          <table>
-                            <tr>
-                              <td>Производитель:</td>
-                              <td class="producer">КрестИнвест</td>
-                            </tr>
-                            <tr>
-                              <td>Материал:</td>
-                              <td>Серебро 930</td>
-                            </tr>
-                            <tr>
-                              <td>Вес:</td>
-                              <td>121 г.</td>
-                            </tr>
-                            <tr>
-                              <td>Код товара:</td>
-                              <td>1233454</td>
-                            </tr>
-                          </table>
-                        </div>
-                      </article>
-                      <article class="article1">
                         <div class="labelNew"></div>
                         <div class="slider5">
-                          <div class="imgProd1">
-                            <img src="img/cross_2.1.jpg" alt="image1">
-                          </div>
-                          <div class="imgProd1">
-                            <img src="img/cross_2.2.jpg" alt="image2">
-                          </div>
-                          <div class="imgProd1">
-                            <img src="img/cross_2.3.jpg" alt="image3">
-                          </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.1.jpg" alt="image1">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.2.jpg" alt="image2">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.3.jpg" alt="image3">
+                            </div>
                         </div>
                         <div class="textProd1">
-                          <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
-                          <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
-                          <div class="blockPay1">
-                            <div class="blockSize">
-                              <p class="oldSize1">10 000 ₴</p>
-                              <p class="size1">8 500 ₴</p>
-                            </div>
-                            <a href="#" class="payLink1">
-                              <i class="basket">
-                                <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <g clip-path="url(#clip0)">
-                                    <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876"/>
-                                    <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876"/>
-                                    <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876"/>
-                                  </g>
-                                  <defs>
-                                    <clipPath id="clip0">
-                                      <path d="M0 0H31V31H0V0Z" fill="white"/>
-                                    </clipPath>
-                                  </defs>
-                                </svg>
-                              </i>КУПИТЬ
-                              </a>
+                            <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн...</a></h4>
+                            <p class="maybeProd">
+                                <i class="maybe"></i>Под заказ (1-2 недели)</p>
+                            <div class="blockPay1">
+                                <div class="blockPrice">
+                                    <p class="oldSize1">10 000 ₴</p>
+                                    <p class="size1">8 500 ₴</p>
+                                </div>
+                                <a href="#" class="payLink1">
+                                    <i class="basket">
+                                        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0)">
+                                                <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876" />
+                                                <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876" />
+                                                <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0">
+                                                    <path d="M0 0H31V31H0V0Z" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg></i>КУПИТЬ</a>
                             </div>
                             <table>
-                              <tr>
-                                <td>Производитель:</td>
-                                <td class="producer">КрестИнвест</td>
-                              </tr>
-                              <tr>
-                                <td>Материал:</td>
-                                <td>Серебро 930</td>
-                              </tr>
-                              <tr>
-                                <td>Вес:</td>
-                                <td>121 г.</td>
-                              </tr>
-                              <tr>
-                                <td>Код товара:</td>
-                                <td>1233454</td>
-                              </tr>
+                                <tr>
+                                    <td>Производитель:</td>
+                                    <td class="producer">КрестИнвест</td>
+                                </tr>
+                                <tr>
+                                    <td>Материал:</td>
+                                    <td>Серебро 930</td>
+                                </tr>
+                                <tr>
+                                    <td>Вес:</td>
+                                    <td>121 г.</td>
+                                </tr>
+                                <tr>
+                                    <td>Код товара:</td>
+                                    <td>1233454</td>
+                                </tr>
                             </table>
-                          </div>
-                        </article>
-                        <article class="article1">
-                          <div class="labelNew"></div>
-                          <div class="slider5">
+                        </div>
+                    </article>
+                    <article class="article1">
+                        <div class="labelNew"></div>
+                        <div class="slider5">
                             <div class="imgProd1">
-                              <img src="img/cross_2.1.jpg" alt="image1">
+                                <img src="img/cross_2.1.jpg" alt="image1">
                             </div>
                             <div class="imgProd1">
-                              <img src="img/cross_2.2.jpg" alt="image2">
+                                <img src="img/cross_2.2.jpg" alt="image2">
                             </div>
                             <div class="imgProd1">
-                              <img src="img/cross_2.3.jpg" alt="image3">
+                                <img src="img/cross_2.3.jpg" alt="image3">
                             </div>
-                          </div>
-                          <div class="textProd1">
+                        </div>
+                        <div class="textProd1">
+                            <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
+                            <a class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</a>
+                            <div class="blockPay1">
+                                <div class="blockSize">
+                                    <p class="oldSize1">10 000 ₴</p>
+                                    <p class="size1">8 500 ₴</p>
+                                </div>
+                                <a href="#" class="payLink1">
+                                    <i class="basket">
+                                        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0)">
+                                                <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876" />
+                                                <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876" />
+                                                <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0">
+                                                    <path d="M0 0H31V31H0V0Z" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </i>КУПИТЬ
+                                </a>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td>Производитель:</td>
+                                    <td class="producer">КрестИнвест</td>
+                                </tr>
+                                <tr>
+                                    <td>Материал:</td>
+                                    <td>Серебро 930</td>
+                                </tr>
+                                <tr>
+                                    <td>Вес:</td>
+                                    <td>121 г.</td>
+                                </tr>
+                                <tr>
+                                    <td>Код товара:</td>
+                                    <td>1233454</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </article>
+                    <article class="article1">
+                        <div class="labelNew"></div>
+                        <div class="slider5">
+                            <div class="imgProd1">
+                                <img src="img/cross_2.1.jpg" alt="image1">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.2.jpg" alt="image2">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.3.jpg" alt="image3">
+                            </div>
+                        </div>
+                        <div class="textProd1">
+                            <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
+                            <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
+                            <div class="blockPay1">
+                                <div class="blockSize">
+                                    <p class="oldSize1">10 000 ₴</p>
+                                    <p class="size1">8 500 ₴</p>
+                                </div>
+                                <a href="#" class="payLink1">
+                                    <i class="basket">
+                                        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0)">
+                                                <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876" />
+                                                <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876" />
+                                                <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0">
+                                                    <path d="M0 0H31V31H0V0Z" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </i>КУПИТЬ
+                                </a>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td>Производитель:</td>
+                                    <td class="producer">КрестИнвест</td>
+                                </tr>
+                                <tr>
+                                    <td>Материал:</td>
+                                    <td>Серебро 930</td>
+                                </tr>
+                                <tr>
+                                    <td>Вес:</td>
+                                    <td>121 г.</td>
+                                </tr>
+                                <tr>
+                                    <td>Код товара:</td>
+                                    <td>1233454</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </article>
+                    <article class="article1">
+                        <div class="labelNew"></div>
+                        <div class="slider5">
+                            <div class="imgProd1">
+                                <img src="img/cross_2.1.jpg" alt="image1">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.2.jpg" alt="image2">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.3.jpg" alt="image3">
+                            </div>
+                        </div>
+                        <div class="textProd1">
+                            <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
+                            <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
+                            <div class="blockPay1">
+                                <div class="blockSize">
+                                    <p class="oldSize1">10 000 ₴</p>
+                                    <p class="size1">8 500 ₴</p>
+                                </div>
+                                <a href="#" class="payLink1">
+                                    <i class="basket">
+                                        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0)">
+                                                <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876" />
+                                                <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876" />
+                                                <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0">
+                                                    <path d="M0 0H31V31H0V0Z" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </i>КУПИТЬ
+                                </a>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td>Производитель:</td>
+                                    <td class="producer">КрестИнвест</td>
+                                </tr>
+                                <tr>
+                                    <td>Материал:</td>
+                                    <td>Серебро 930</td>
+                                </tr>
+                                <tr>
+                                    <td>Вес:</td>
+                                    <td>121 г.</td>
+                                </tr>
+                                <tr>
+                                    <td>Код товара:</td>
+                                    <td>1233454</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </article>
+                    <article class="article1">
+                        <div class="labelNew"></div>
+                        <div class="slider5">
+                            <div class="imgProd1">
+                                <img src="img/cross_2.1.jpg" alt="image1">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.2.jpg" alt="image2">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.3.jpg" alt="image3">
+                            </div>
+                        </div>
+                        <div class="textProd1">
+                            <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
+                            <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
+                            <div class="blockPay1">
+                                <div class="blockSize">
+                                    <p class="oldSize1">10 000 ₴</p>
+                                    <p class="size1">8 500 ₴</p>
+                                </div>
+                                <a href="#" class="payLink1">
+                                    <i class="basket">
+                                        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0)">
+                                                <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876" />
+                                                <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876" />
+                                                <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0">
+                                                    <path d="M0 0H31V31H0V0Z" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </i>КУПИТЬ
+                                </a>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td>Производитель:</td>
+                                    <td class="producer">КрестИнвест</td>
+                                </tr>
+                                <tr>
+                                    <td>Материал:</td>
+                                    <td>Серебро 930</td>
+                                </tr>
+                                <tr>
+                                    <td>Вес:</td>
+                                    <td>121 г.</td>
+                                </tr>
+                                <tr>
+                                    <td>Код товара:</td>
+                                    <td>1233454</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </article>
+                    <article class="article1">
+                        <div class="labelNew"></div>
+                        <div class="slider5">
+                            <div class="imgProd1">
+                                <img src="img/cross_2.1.jpg" alt="image1">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.2.jpg" alt="image2">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.3.jpg" alt="image3">
+                            </div>
+                        </div>
+                        <div class="textProd1">
+                            <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
+                            <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
+                            <div class="blockPay1">
+                                <div class="blockSize">
+                                    <p class="oldSize1">10 000 ₴</p>
+                                    <p class="size1">8 500 ₴</p>
+                                </div>
+                                <a href="#" class="payLink1">
+                                    <i class="basket">
+                                        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0)">
+                                                <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876" />
+                                                <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876" />
+                                                <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0">
+                                                    <path d="M0 0H31V31H0V0Z" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </i>КУПИТЬ
+                                </a>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td>Производитель:</td>
+                                    <td class="producer">КрестИнвест</td>
+                                </tr>
+                                <tr>
+                                    <td>Материал:</td>
+                                    <td>Серебро 930</td>
+                                </tr>
+                                <tr>
+                                    <td>Вес:</td>
+                                    <td>121 г.</td>
+                                </tr>
+                                <tr>
+                                    <td>Код товара:</td>
+                                    <td>1233454</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </article>
+                    <article class="article1">
+                        <div class="labelNew"></div>
+                        <div class="slider5">
+                            <div class="imgProd1">
+                                <img src="img/cross_2.1.jpg" alt="image1">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.2.jpg" alt="image2">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.3.jpg" alt="image3">
+                            </div>
+                        </div>
+                        <div class="textProd1">
+                            <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
+                            <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
+                            <div class="blockPay1">
+                                <div class="blockSize">
+                                    <p class="oldSize1">10 000 ₴</p>
+                                    <p class="size1">8 500 ₴</p>
+                                </div>
+                                <a href="#" class="payLink1">
+                                    <i class="basket">
+                                        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0)">
+                                                <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876" />
+                                                <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876" />
+                                                <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0">
+                                                    <path d="M0 0H31V31H0V0Z" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </i>КУПИТЬ
+                                </a>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td>Производитель:</td>
+                                    <td class="producer">КрестИнвест</td>
+                                </tr>
+                                <tr>
+                                    <td>Материал:</td>
+                                    <td>Серебро 930</td>
+                                </tr>
+                                <tr>
+                                    <td>Вес:</td>
+                                    <td>121 г.</td>
+                                </tr>
+                                <tr>
+                                    <td>Код товара:</td>
+                                    <td>1233454</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </article>
+                    <article class="article1">
+                        <div class="labelNew"></div>
+                        <div class="slider5">
+                            <div class="imgProd1">
+                                <img src="img/cross_2.1.jpg" alt="image1">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.2.jpg" alt="image2">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.3.jpg" alt="image3">
+                            </div>
+                        </div>
+                        <div class="textProd1">
+                            <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
+                            <p class="maybeProd"><i class="maybe"></i>Под заказ (1-2 недели)</p>
+                            <div class="blockPay1">
+                                <div class="blockSize">
+                                    <p class="oldSize1">10 000 ₴</p>
+                                    <p class="size1">8 500 ₴</p>
+                                </div>
+                                <a href="#" class="payLink1">
+                                    <i class="basket">
+                                        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0)">
+                                                <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876" />
+                                                <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876" />
+                                                <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0">
+                                                    <path d="M0 0H31V31H0V0Z" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </i>КУПИТЬ
+                                </a>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td>Производитель:</td>
+                                    <td class="producer">КрестИнвест</td>
+                                </tr>
+                                <tr>
+                                    <td>Материал:</td>
+                                    <td>Серебро 930</td>
+                                </tr>
+                                <tr>
+                                    <td>Вес:</td>
+                                    <td>121 г.</td>
+                                </tr>
+                                <tr>
+                                    <td>Код товара:</td>
+                                    <td>1233454</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </article>
+                    <article class="article1">
+                        <div class="labelNew"></div>
+                        <div class="slider5">
+                            <div class="imgProd1">
+                                <img src="img/cross_2.1.jpg" alt="image1">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.2.jpg" alt="image2">
+                            </div>
+                            <div class="imgProd1">
+                                <img src="img/cross_2.3.jpg" alt="image3">
+                            </div>
+                        </div>
+                        <div class="textProd1">
                             <h4><a href="card_product.html">Голгофский крест православный крест Благость в комбинированн</a></h4>
                             <p class="maybeProd">
-                              <i class="maybe"></i>Под заказ (1-2 недели)</p>
+                                <i class="maybe"></i>Под заказ (1-2 недели)</p>
                             <div class="blockPay1">
-                              <div class="blockSize">
-                                <p class="oldSize1">10 000 ₴</p>
-                                <p class="size1">8 500 ₴</p>
-                              </div>
-                              <a href="#" class="payLink1">
-                                <i class="basket">
-                                  <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0)">
-                                      <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876"/>
-                                      <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876"/>
-                                      <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876"/>
-                                    </g>
-                                    <defs>
-                                      <clipPath id="clip0">
-                                        <path d="M0 0H31V31H0V0Z" fill="white"/>
-                                      </clipPath>
-                                    </defs>
-                                  </svg>
-                                </i>КУПИТЬ
+                                <div class="blockSize">
+                                    <p class="oldSize1">10 000 ₴</p>
+                                    <p class="size1">8 500 ₴</p>
+                                </div>
+                                <a href="#" class="payLink1">
+                                    <i class="basket">
+                                        <svg width="30" height="30" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0)">
+                                                <path d="M15.1616 27.191C15.1616 25.5586 13.8383 24.2354 12.2062 24.2354C10.5737 24.2354 9.25049 25.5586 9.25049 27.1907C9.25049 28.8232 10.5737 30.1464 12.2062 30.1464C13.8374 30.1447 15.1598 28.8226 15.1616 27.191ZM10.2988 27.191C10.2988 26.1375 11.1526 25.2837 12.2062 25.2837C13.2595 25.2837 14.1133 26.1375 14.1133 27.1907C14.1133 28.2443 13.2595 29.0981 12.2062 29.0981C11.1532 29.0969 10.3 28.2437 10.2988 27.191Z" fill="#F4A876" />
+                                                <path d="M23.1501 30.1464C24.7825 30.1467 26.1058 28.8235 26.1058 27.191C26.1061 25.5586 24.7828 24.2354 23.1504 24.2354C21.518 24.2354 20.1947 25.5586 20.1947 27.191C20.1967 28.8223 21.5185 30.1444 23.1501 30.1464ZM23.1501 25.2837C24.2034 25.2837 25.0575 26.1375 25.0575 27.1907C25.0578 28.244 24.2037 29.0981 23.1504 29.0981C22.0971 29.0981 21.243 28.2443 21.243 27.191C21.2442 26.1383 22.0974 25.2851 23.1501 25.2837Z" fill="#F4A876" />
+                                                <path d="M0.524152 1.87206H3.72142C4.77352 1.86796 5.67061 2.63401 5.8309 3.67412L8.36186 19.6616C8.60083 21.2119 9.93812 22.354 11.5068 22.3479H27.1512C27.4405 22.3479 27.6753 22.113 27.6753 21.8238C27.6753 21.5342 27.4405 21.2996 27.1512 21.2996H11.5068C10.4547 21.3037 9.55758 20.5374 9.39729 19.4975L8.96703 16.7794H24.9896C26.3462 16.7788 27.5537 15.9194 27.9982 14.638L30.9709 6.05854C31.0267 5.89826 31.0013 5.721 30.903 5.58265C30.8044 5.4446 30.6453 5.3624 30.4757 5.3624H7.15941L6.86633 3.51003C6.62736 1.95981 5.29007 0.817613 3.72142 0.823755H0.524152C0.234581 0.823755 0 1.05863 0 1.34791C0 1.63748 0.234581 1.87206 0.524152 1.87206ZM29.7392 6.411L27.0079 14.2946C26.7095 15.1543 25.8996 15.7308 24.9896 15.7311H8.80089L7.32525 6.41071L18.5322 6.41085L29.7392 6.411Z" fill="#F4A876" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0">
+                                                    <path d="M0 0H31V31H0V0Z" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </i>КУПИТЬ
                                 </a>
-                              </div>
-                              <table>
-                                <tr>
-                                  <td>Производитель:</td>
-                                  <td class="producer">КрестИнвест</td>
-                                </tr>
-                                <tr>
-                                  <td>Материал:</td>
-                                  <td>Серебро 930</td>
-                                </tr>
-                                <tr>
-                                  <td>Вес:</td>
-                                  <td>121 г.</td>
-                                </tr>
-                                <tr>
-                                  <td>Код товара:</td>
-                                  <td>1233454</td>
-                                </tr>
-                              </table>
                             </div>
-                          </article>
+                            <table>
+                                <tr>
+                                    <td>Производитель:</td>
+                                    <td class="producer">КрестИнвест</td>
+                                </tr>
+                                <tr>
+                                    <td>Материал:</td>
+                                    <td>Серебро 930</td>
+                                </tr>
+                                <tr>
+                                    <td>Вес:</td>
+                                    <td>121 г.</td>
+                                </tr>
+                                <tr>
+                                    <td>Код товара:</td>
+                                    <td>1233454</td>
+                                </tr>
+                            </table>
                         </div>
-                        <!-- //blockProduct -->
-                        <div class="paginator">
-                              <a href="#" alt="" class="loadMoreLink"><i class="loadIcon"></i>ЗАГРУЗИТЬ ЕЩЕ</a>
-                            <div class="pagination">
-                              <a href="#" class="buttonLeft"></a>
-                              <ul class="paginationList">
-                                <li class="paginationItem">
-                                  <a href="#" class="paginationLink"></a>
-                                </li>
-                                <li class="paginationItem">
-                                  <a href="#" class="paginationLink"></a>
-                                </li>
-                                <li class="paginationItem">
-                                  <a href="#" class="paginationLink"></a>
-                                </li>
-                                <li class="paginationItem">
-                                  <a href="#" class="paginationLink"></a>
-                                </li>
-                                <li class="paginationItem">
-                                  <a href="#" class="paginationLink"></a>
-                                </li>
-                                <li class="paginationItem">
-                                  <a href="#" class="paginationLink"></a>
-                                </li>
-                                <li class="paginationItem">
-                                  <a href="#" class="paginationLink"></a>
-                                </li>
-                              </ul>
-                              <a href="#" class="buttonRight"></a>
-                            </div>
-                          </div>
-                    </main>
-                  </div>
-                      <!-- footer -->
-                    <footer class="footer">
-                      <div class="gridContainer flex7">
-                        <div class="blockLogoFoot">
-                          <a href="index.html" class="logoFoot">
-                            <img src="img/logo-bw.svg" alt="img">
-                          </a>
-                        </div>
-                        <div class="navDown">
-                          <nav class="navMenuDown">
-                            <ul>
-                              <li><a href="aboutUs.html">О нас</a></li>
-                              <li><a href="#">Оплата и доставка</a></li>
-                              <li><a href="blog.html">Блог</a></li>
-                              <li><a href="#">Контакты</a></li>
-                              <li><a href="#">Сотрудничество</a></li>
-                            </ul>
-                          </nav>
-                        </div>
-                        <div class="sociatyLink">
-                          <a href="#" class="whatsappLink"></a>
-                          <a href="#" class="instagramLink"></a>
-                          <a href="#" class="facebookLink"></a>
-                        </div>
-                      </div>
-                    </footer>
-                    <!-- //footer -->
-                  </div>
-          <!--                script                   -->
-                  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-                  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-                  crossorigin="anonymous">
-                </script>
-                <script type="text/javascript">
-                  $( function() {
-                    $( "#tabs" ).tabs();
-                  } );
-                </script>
-                <script type="text/javascript" src="js/sliders.min.js"></script>
-                <script type="text/javascript" src="js/slick.min.js"></script>
-                <script type="text/javascript" src="js/nav.js"></script>
-                <script type="text/javascript" src="js/modal.min.js"></script>
-                <script type="text/javascript" src="js/my.min.js"></script>
-        <!--                //script                   -->
-                </body>
-                </html>
+                    </article>
+                </div>
+                <!-- //blockProduct -->
+                <div class="paginator">
+                    <a href="#" alt="" class="loadMoreLink"><i class="loadIcon"></i>ЗАГРУЗИТЬ ЕЩЕ</a>
+                    <div class="pagination">
+                        <a href="#" class="buttonLeft"></a>
+                        <ul class="paginationList">
+                            <li class="paginationItem">
+                                <a href="#" class="paginationLink"></a>
+                            </li>
+                            <li class="paginationItem">
+                                <a href="#" class="paginationLink"></a>
+                            </li>
+                            <li class="paginationItem">
+                                <a href="#" class="paginationLink"></a>
+                            </li>
+                            <li class="paginationItem">
+                                <a href="#" class="paginationLink"></a>
+                            </li>
+                            <li class="paginationItem">
+                                <a href="#" class="paginationLink"></a>
+                            </li>
+                            <li class="paginationItem">
+                                <a href="#" class="paginationLink"></a>
+                            </li>
+                            <li class="paginationItem">
+                                <a href="#" class="paginationLink"></a>
+                            </li>
+                        </ul>
+                        <a href="#" class="buttonRight"></a>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="gridContainer flex7">
+                <div class="blockLogoFoot">
+                    <a href="index.html" class="logoFoot">
+                        <img src="img/logo-bw.svg" alt="img">
+                    </a>
+                </div>
+                <div class="navDown">
+                    <nav class="navMenuDown">
+                        <ul>
+                            <li><a href="aboutUs.html">О нас</a></li>
+                            <li><a href="#">Оплата и доставка</a></li>
+                            <li><a href="blog.html">Блог</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Сотрудничество</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="sociatyLink">
+                    <a href="#" class="whatsappLink"></a>
+                    <a href="#" class="instagramLink"></a>
+                    <a href="#" class="facebookLink"></a>
+                </div>
+            </div>
+        </footer>
+        <!-- //footer -->
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/sliders.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/modal.min.js"></script>
+    <script src="js/my.min.js"></script>
+</body>
+
+</html>
