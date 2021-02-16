@@ -408,7 +408,7 @@ table tr td:last-child {
 
 .blockPay .payLink,
 .blockPay1 .payLink1 {
-  font: normal 1.6rem 'AvenirNextCyr';
+  font: normal 500 1.6rem 'AvenirNextCyr';
   letter-spacing: 0.15em;
   color: #F4A876;
   position: relative;
@@ -1037,14 +1037,22 @@ article:hover i svg {
     width: 400px; } }
 
 /*---------------------- @media 1280 --------------------------*/
+@media screen and (min-width: 1280px) {
+  .wrapper .about {
+    height: 850px;
+    background-position: center; }
+  .about .flex3 {
+    position: relative; }
+  .flex3 .blockText2 {
+    width: 750px;
+    position: absolute;
+    right: 0;
+    top: 170px; } }
+
 /*---------------------- @media 1360 --------------------------*/
 @media screen and (min-width: 1360px) {
-  .wrapper .about {
-    height: 850px; }
   .blockLogoFoot .logoFoot::after {
     top: 50px; }
-  .wrapper .about {
-    background-position: center; }
   .footer .flex7 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2203,7 +2211,7 @@ section .blockViewedProd {
 .blockViewedProd .article1 {
   width: 300px;
   position: relative;
-  margin: 5px 0;
+  margin: 5px auto;
   background: #FFFFFF;
   border: 1px solid #F0F0F0;
   -webkit-transform-origin: 5px 10px;
@@ -2283,7 +2291,10 @@ section .blockViewedProd {
             flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; } }
+            justify-content: space-between; }
+  .blockSimilarProd .article1,
+  .blockViewedProd .article1 {
+    margin: 5px 0; } }
 
 /*              @media 1360px                */
 .sliderProd {

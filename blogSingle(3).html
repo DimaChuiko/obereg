@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>obereg</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,190 +8,228 @@
     <link type="text/css" rel="stylesheet" href="fonts/fonts.css" media="all">
     <link rel="stylesheet" href="css/main.min.css" type="text/css" media="all">
 </head>
+
 <body>
-<!-- wrapper -->
-<div class="wrapper">
-<!-- header -->
-<header class="header">
-  <div class="gridContainer flex">
-    <div class="navMob">
-    <button id="menu-open-btn" class="menu-open-btn">
-     <span id="menu-btn-line" class="menu-btn-line"></span>
-    </button>
-    <div class="blockLogo">
-      <a class="logoHead" href="index.html">
-          <img src="img/logo_head.svg" alt="">
-        </a>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- header -->
+        <header class="header">
+            <div class="gridContainer flex">
+                <div class="navMob">
+                    <button id="menu-open-btn" class="menu-open-btn">
+                        <span id="menu-btn-line" class="menu-btn-line"></span>
+                    </button>
+                    <div class="blockLogo">
+                        <a class="logoHead" href="index.html">
+                            <img src="img/logo_head.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="blockBasket">
+                        <a href="#" class="basket">
+                            <span class="basketMeter">2</span>
+                            <img src="img/shopping-cart111.svg" alt="">
+                            <p class="basketMoney">1 232 $</p>
+                        </a>
+                    </div>
+                </div>
+                <!--               menu-phone                 -->
+                <div id="menu-phone" class="menu-phone">
+                    <div class="one">
+                        <div class="blockSearch">
+                            <form class="formSearch" method="GET">
+                                <input class="noHover" type="search" name="search" placeholder="Код или название товара">
+                                <input type="submit" name="">
+                            </form>
+                        </div>
+                        <div class="blockMonLang">
+                            <form class="formLang" method="GET">
+                                <select class="colorOrange" name="language" id="">
+                                    <option selected>RU</option>
+                                    <option>UA</option>
+                                    <option>EN</option>
+                                </select>
+                            </form>
+                            <form class="formMoney" method="GET">
+                                <select class="colorOrange" name="money" id="">
+                                    <option selected>₴</option>
+                                    <option>€</option>
+                                    <option>$</option>
+                                </select>
+                            </form>
+                            <a href="#" class="loginLink">Кабинет</a>
+                            <!-- modal, form, login -->
+                        </div>
+                    </div>
+                    <nav class="navCategory">
+                        <div class="gridContainer">
+                            <ul class="listCategory">
+                                <li class="itemCategory"><a href="crossesAndPendants(1).html">Кресты и кулоны</a></li>
+                                <li class="itemCategory"><a href="beads(2).html">Бусины (шармы)</a></li>
+                                <li class="itemCategory"><a href="bracelets(3).html">Браслеты</a></li>
+                                <li class="itemCategory"><a href="rings(4).html">Кольца</a></li>
+                                <li class="itemCategory"><a href="earrings(5).html">Серьги</a></li>
+                                <li class="itemCategory"><a href="lacesAndChains(6).html">Шнурки и цепи</a></li>
+                                <li class="itemCategory"><a href="holyNames(7).html">Святые имена</a></li>
+                                <li class="itemCategory"><a href="orthodox_gifts(8).html">Православные подарки</a></li>
+                                <li class="itemCategory"><a href="forClergy(9).html">Для священнослужителей</a></li>
+                                <li class="itemCategory"><a href="" class="link">SALE</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <nav class="navMenuUp">
+                        <ul class="listMenu">
+                            <li class="itemMenu"><a href="aboutUs.html">О нас</a></li>
+                            <li class="itemMenu"><a href="">Сотрудничество</a></li>
+                            <li class="itemMenu"><a href="">Контакты</a></li>
+                            <li class="itemMenu"><a href="delivery.html">Оплата и доставка</a></li>
+                            <li class="itemMenu"><a href="guarantee.html">Гарантии и возврат</a></li>
+                            <li class="itemMenu"><a href="blog.html">Блог</a></li>
+                        </ul>
+                    </nav>
+                    <div class="blockCallback">
+                        <div class="callback">
+                            <p class="number">+38(099)170-92-30</p>
+                            <p class="number">+38(099)170-92-30</p>
+                        </div>
+                        <a href="#" class="callbackButton linkWhite">CALLBACK</a>
+                    </div>
+                </div>
+            </div>
+            <!--navCategory destop-->
+            <div class="navCategoryDestop">
+                <div class="gridContainer">
+                    <nav class="navCategory">
+                        <ul class="listCategory">
+                            <li class="itemCategory">
+                                <a href="crossesAndPendants(1).html">Кресты и Кулоны</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="beads(2).html">Бусины (Шармы)</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="bracelets(3).html">Браслеты</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="rings(4).html">Кольца</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="earrings(5).html">Серьги</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="lacesAndChains(6).html">Шнурки и Цепи</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="holyNames(7).html">Святые Имена</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="orthodox_gifts(8).html">Православные Подарки</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="forClergy(9).html">Для Священнослужителей</a>
+                            </li>
+                            <li class="itemCategory">
+                                <a href="card_product.html" class="link">SALE</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!--//navCategory destop-->
+        </header>
+        <!-- //header -->
+        <aside class="sidebar prodCategory">
+            <nav></nav>
+        </aside>
+        <!-- mainContent -->
+        <main class="mainContent">
+            <!-- section blogSingle -->
+            <section class="blogSingle">
+                <div class="fotoLady"></div>
+                <div class="gridContainer flex11">
+                    <div class="imgPost">
+                        <img src="img/blog_img/3.jpg" alt="">
+                    </div>
+                    <div class="blockText3">
+                        <h2>Многие боятся зайти в храм...</h2>
+                        <p class="text3">Много предидущих лет в нашей истории - религия была не в почете! Это привело многих из нас к тому, что мы ничего не знаем о церкви и о Боге!
+                            Бывает, люди не решаются пойти в храм из опасения сделать что-то неправильно, попасть в неловкое положение или ещё хуже когда-то давно или не очень были поруганы ворчливой старушкой-храмовницей.</p>
+                        <p class="text3">Давайте разберем наиболее частые вопросы и предубеждения.
+                            <p class="text3">
+                                <b>1. А вдруг я не вовремя?</b>
+                                Двери храма всегда открыты, когда они открыты. Если Вы хотите попасть на богослужение, тогда надо приходить утром, когда служится литургия или вечером на всенощную - вечернюю службу. Расписание всегда можно уточнить.
+                            </p>
+                            <p class="text3">
+                                <b>2. Наверное, я не так одет(а).</b>
+                                Мужчины, входя в храм, снимают головной убор. Неуместно посещение храма в шортах и майке. Ну, мало ли, вдруг Вас потянет помолиться в церкви прямо по дороге с пляжа. Лучше переодеться. В остальном, строгого протокола для мирян нет. Но пусть Ваш внешний вид демонстрирует уважение к собравшимся верующим.
+                                Женщины в храм традиционно приходят в юбке. Но если Вы в брюках - не беда. Просто это не должно стать традицией. Голову покрывают платком. Шарф или шапка тоже подойдут. Если же с собой ничего не оказалось, то, как правило, платок можно приобрести в свечной лавке, или надеть один из предназначенных для общего пользования. Во многих храмах есть даже специальные большие платки, которыми можно, повязав их вокруг талии, прикрыть ноги (на тот случай, когда Вы пришли в брюках или слишком короткой юбке). В дальнейшем Вы поймете, что не во всякой юбке удобно делать поклоны.
+                                Девушкам важно также запомнить, что накрашенными губами не прикладываются к святыням, так как от губной помады могут оставаться следы.
+                            </p>
+                            <p class="text3">
+                                <b>3. Можно ли входить в храм без нательного крестика?</b>
+                                Крестик - это не пропускной билет в храм, это, скорее, признак Вашего самоосознания, как православного христианина, свидетельство принадлежности к Христовой церкви. Если Вы только знакомитесь с христианством, то, решившись креститься, приобретете себе крестик.
+                            </p>
+                            <p class="text3">
+                                <b>4. Где можно стоять или ходить в храме, а где нельзя?</b>
+                                Находиться в храме можно везде, кроме алтаря (это помещение за стеной иконостаса), и солеи (возвышения перед ним).
+                                В алтарь входят только мужчины-священнослужители и церковнослужители.
+                                На солею дозволено всходить духовенству, церковнослужителям и певчим.
+                                Во время службы стойте лицом к алтарю, потому что там расположен Святой Престол - центральное место храма.
+                            </p>
+                            <p class="text3">
+                                <b>5. Как правильно креститься?</b>
+                                Крестным знамением осеняют себя правой рукой. Большой, указательный и средний палец складывают вместе - в честь Святой Единосущной Троицы. А безымянный и мизинец прижимают к ладони - знак того, что Христос - Бог и человек.
+                                Сложенные три пальца сначала кладут на лоб (освящение ума), потом на живот (освящение внутренних чувств), затем на правое плечо и левое плечо (освящение телесных сил). Потом опускают руку и склоняют голову.
+                                Не слушайте народное творчество, будто при поклоне рукой непременно до пола нужно достать. Пол трогать вовсе не обязательно.
+                            </p>
+                            <p class="text3">
+                                <b>6. Как молиться и прикладываться к иконам?</b>
+                                К иконам прикладываются с пониманием того, кто на них изображен и о чем Вы просите заступничества перед Богом. Не суетитесь. Какой смысл лобызать все подряд иконы, не понимая кто перед тобой находится.
+                                Молиться можно про себя или тихонько вслух о том, что Вас беспокоит.
+                                Во время службы постарайтесь вникнуть в смысл общей молитвы.
+                            </p>
+                            <p class="text3">
+                                <b>7. Ну и о бабушках. Куда ж без них.</b>
+                                В народе ходят мемы о ворчливых церковных старушках, которые только и ждут, когда Вы что-то не так сделаете. Но, во-первых, это сильно преувеличено. Во-вторых, бабушка - не настоятель, даже если эта мысль и роится где-то у нее в подсознании. А в третьих - будьте снисходительны. Вспомните свою бабушку… Для нее можно было и шапку одеть в плюс 20.
+                                А если Вы все же стали объектом пристального внимания какой-нибудь бабушки, спросите, есть ли у нее благословение от священника делать замечания, и она, скорее всего, растворится.
+                                Знайте, поучать Вас могут священники либо кто-то с их благословения, а также служащие храма.
+                            </p>
+                    </div>
+                </div>
+            </section>
+            <!-- //section blogSingle -->
+        </main>
+        <!-- //mainContent -->
+        <!-- footer -->
+        <footer class="footer">
+            <div class="gridContainer flex7">
+                <div class="blockLogoFoot">
+                    <a href="index.html" class="logoFoot">
+                        <img src="img/logo-bw.svg" alt="">
+                    </a>
+                </div>
+                <div class="navDown">
+                    <nav class="navMenuDown">
+                        <ul>
+                            <li><a href="aboutUs.html">О нас</a></li>
+                            <li><a href="#">Оплата и доставка</a></li>
+                            <li><a href="blog.html">Блог</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Сотрудничество</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="sociatyLink">
+                    <a href="" class="whatsappLink"></a>
+                    <a href="" class="instagramLink"></a>
+                    <a href="" class="facebookLink"></a>
+                </div>
+            </div>
+        </footer>
+        <!-- //footer -->
     </div>
-    <div class="blockBasket">
-        <a href="#" class="basket">
-          <span class="basketMeter">2</span>
-          <img src="img/shopping-cart111.svg" alt="">
-          <p class="basketMoney">1 232 $</p>
-        </a>
-      </div>
-    </div>
-<!--               menu-phone                 -->
-<div id="menu-phone" class="menu-phone">
-  <div class="one">
-    <div class="blockSearch">
-      <form class="formSearch" method="GET">
-        <input class="noHover" type="search" name="search" placeholder="Код или название товара">
-        <input type="submit" name="">
-      </form>
-    </div>
-    <div class="blockMonLang">
-      <form class="formLang" method="GET">
-        <select class="colorOrange" name="language" id="">
-          <option selected>RU</option>
-          <option>UA</option>
-          <option>EN</option>
-        </select>
-      </form>
-    <form class="formMoney" method="GET">
-      <select class="colorOrange" name="money" id="">
-        <option selected>₴</option>
-        <option>€</option>
-        <option>$</option>
-      </select>
-    </form>
-      <a href="#" class="loginLink">Кабинет</a>
- <!-- modal, form, login -->
-    </div>
-  </div>
-   <nav class="navCategory">
-    <div class="gridContainer">
-     <ul class="listCategory">
-       <li class="itemCategory"><a href="crossesAndPendants(1).html">Кресты и кулоны</a></li>
-       <li class="itemCategory"><a href="beads(2).html">Бусины (шармы)</a></li>
-       <li class="itemCategory"><a href="bracelets(3).html">Браслеты</a></li>
-       <li class="itemCategory"><a href="rings(4).html">Кольца</a></li>
-       <li class="itemCategory"><a href="earrings(5).html">Серьги</a></li>
-       <li class="itemCategory"><a href="lacesAndChains(6).html">Шнурки и цепи</a></li>
-       <li class="itemCategory"><a href="holyNames(7).html">Святые имена</a></li>
-       <li class="itemCategory"><a href="orthodox_gifts(8).html">Православные подарки</a></li>
-       <li class="itemCategory"><a href="forClergy(9).html">Для священнослужителей</a></li>
-       <li class="itemCategory"><a href="" class="link">SALE</a></li>
-     </ul>
-   </div>
-   </nav>
-   <nav class="navMenuUp">
-      <ul class="listMenu">
-        <li class="itemMenu"><a href="aboutUs.html">О нас</a></li>
-        <li class="itemMenu"><a href="">Сотрудничество</a></li>
-        <li class="itemMenu"><a href="">Контакты</a></li>
-        <li class="itemMenu"><a href="delivery.html">Оплата и доставка</a></li>
-        <li class="itemMenu"><a href="guarantee.html">Гарантии и возврат</a></li>
-        <li class="itemMenu"><a href="blog.html">Блог</a></li>
-      </ul>
-    </nav>
-    <div class="blockCallback">
-    <div class="callback">
-      <p class="number">+38(099)170-92-30</p>
-      <p class="number">+38(099)170-92-30</p>
-    </div>
-      <a href="#" class="callbackButton linkWhite">CALLBACK</a>
-   </div>
-</div>
-</div>
-</header>
-<!-- //header -->
-<aside class="sidebar prodCategory">
-  <nav></nav>
-</aside>
-<!-- mainContent -->
-<main class="mainContent">
-  <!-- section blogSingle -->
-  <section class="blogSingle">
-    <div class="fotoLady"></div>
-    <div class="gridContainer flex11">
-      <div class="imgPost">
-            <img src="img/blog_img/3.jpg" alt="">
-          </div>
-      <div class="blockText3">
-        <h2>Многие боятся зайти в храм...</h2>
-        <p class="text3">Много предидущих лет в нашей истории - религия была не в почете! Это привело многих из нас к тому, что мы ничего не знаем о церкви и о Боге!
-        Бывает, люди не решаются пойти в храм из опасения сделать что-то неправильно, попасть в неловкое положение или ещё хуже когда-то давно или не очень были поруганы ворчливой старушкой-храмовницей.</p>
-        <p class="text3">Давайте разберем наиболее частые вопросы и предубеждения.
-          <p class="text3">
-            <b>1. А вдруг я не вовремя?</b>
-            Двери храма всегда открыты, когда они открыты. Если Вы хотите попасть на богослужение, тогда надо приходить утром, когда служится литургия или вечером на всенощную - вечернюю службу. Расписание всегда можно уточнить.
-          </p>
-          <p class="text3">
-            <b>2. Наверное, я не так одет(а).</b>
-            Мужчины, входя в храм, снимают головной убор. Неуместно посещение храма в шортах и майке. Ну, мало ли, вдруг Вас потянет помолиться в церкви прямо по дороге с пляжа. Лучше переодеться. В остальном, строгого протокола для мирян нет. Но пусть Ваш внешний вид демонстрирует уважение к собравшимся верующим.
-
-            Женщины в храм традиционно приходят в юбке. Но если Вы в брюках - не беда. Просто это не должно стать традицией. Голову покрывают платком. Шарф или шапка тоже подойдут. Если же с собой ничего не оказалось, то, как правило, платок можно приобрести в свечной лавке, или надеть один из предназначенных для общего пользования. Во многих храмах есть даже специальные большие платки, которыми можно, повязав их вокруг талии, прикрыть ноги (на тот случай, когда Вы пришли в брюках или слишком короткой юбке). В дальнейшем Вы поймете, что не во всякой юбке удобно делать поклоны.
-
-            Девушкам важно также запомнить, что накрашенными губами не прикладываются к святыням, так как от губной помады могут оставаться следы.
-          </p>
-          <p class="text3">
-            <b>3. Можно ли входить в храм без нательного крестика?</b>
-            Крестик - это не пропускной билет в храм, это, скорее, признак Вашего самоосознания, как православного христианина, свидетельство принадлежности к Христовой церкви. Если Вы только знакомитесь с христианством, то, решившись креститься, приобретете себе крестик.
-          </p>
-          <p class="text3">
-            <b>4. Где можно стоять или ходить в храме, а где нельзя?</b>
-            Находиться в храме можно везде, кроме алтаря (это помещение за стеной иконостаса), и солеи (возвышения перед ним).
-            В алтарь входят только мужчины-священнослужители и церковнослужители.
-            На солею дозволено всходить духовенству, церковнослужителям и певчим.
-            Во время службы стойте лицом к алтарю, потому что там расположен  Святой Престол - центральное место храма.
-          </p>
-          <p class="text3">
-            <b>5. Как правильно креститься?</b>
-            Крестным знамением осеняют себя правой рукой. Большой, указательный и средний палец складывают вместе - в честь Святой Единосущной Троицы. А   безымянный и мизинец прижимают к ладони - знак того, что Христос - Бог и человек.
-            Сложенные три пальца сначала кладут на лоб (освящение ума), потом на живот (освящение внутренних чувств), затем на правое плечо и левое плечо  (освящение телесных сил). Потом опускают руку и склоняют голову.
-            Не слушайте народное творчество, будто при поклоне рукой непременно до пола нужно достать. Пол трогать вовсе не обязательно.
-          </p>
-          <p class="text3">
-            <b>6. Как молиться и прикладываться к иконам?</b>
-            К иконам прикладываются с пониманием того, кто на них изображен и о чем Вы просите заступничества перед Богом. Не суетитесь. Какой смысл лобызать все подряд иконы, не понимая кто перед тобой находится.
-            Молиться можно про себя или тихонько вслух о том, что Вас беспокоит.
-            Во время службы постарайтесь вникнуть в смысл общей молитвы.
-          </p>
-          <p class="text3">
-            <b>7. Ну и о бабушках. Куда ж без них.</b>
-            В народе ходят мемы о ворчливых церковных старушках, которые только и ждут, когда Вы что-то не так сделаете. Но, во-первых, это сильно преувеличено.  Во-вторых, бабушка - не настоятель, даже если эта мысль и роится где-то у нее в подсознании. А в третьих - будьте снисходительны. Вспомните свою бабушку… Для нее можно было и шапку одеть в плюс 20.
-            А если Вы все же стали объектом пристального внимания какой-нибудь бабушки, спросите, есть ли у нее благословение от священника делать замечания, и она, скорее всего, растворится.
-            Знайте, поучать Вас могут священники либо кто-то с их благословения, а также служащие храма.
-          </p>
-      </div>
-    </div>
-  </section>
-  <!-- //section blogSingle -->
-</main>
-<!-- //mainContent -->
-<!-- footer -->
-<footer class="footer">
-  <div class="gridContainer flex7">
-    <div class="blockLogoFoot">
-      <a href="index.html" class="logoFoot">
-        <img src="img/logo-bw.svg" alt="">
-      </a>
-    </div>
-    <div class="navDown">
-    <nav class="navMenuDown">
-      <ul>
-        <li><a href="aboutUs.html">О нас</a></li>
-        <li><a href="#">Оплата и доставка</a></li>
-        <li><a href="blog.html">Блог</a></li>
-        <li><a href="#">Контакты</a></li>
-        <li><a href="#">Сотрудничество</a></li>
-      </ul>
-    </nav>
-  </div>
-    <div class="sociatyLink">
-      <a href="" class="whatsappLink"></a>
-      <a href="" class="instagramLink"></a>
-      <a href="" class="facebookLink"></a>
-    </div>
-  </div>
-</footer>
-<!-- //footer -->
-</div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"
-integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-crossorigin="anonymous"></script>
-<script src="js/nav.js" type="text/javascript"></script>
-<script src="js/modal.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/nav.js" type="text/javascript"></script>
+    <script src="js/modal.min.js" type="text/javascript"></script>
 </body>
+
 </html>
